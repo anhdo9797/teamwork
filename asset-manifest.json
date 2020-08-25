@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/http//anhdo9797.github.io/teamwork/static/css/main.5f361e03.chunk.css",
-    "main.js": "/http//anhdo9797.github.io/teamwork/static/js/main.c014c32a.chunk.js",
-    "main.js.map": "/http//anhdo9797.github.io/teamwork/static/js/main.c014c32a.chunk.js.map",
-    "runtime-main.js": "/http//anhdo9797.github.io/teamwork/static/js/runtime-main.1e2c39ec.js",
-    "runtime-main.js.map": "/http//anhdo9797.github.io/teamwork/static/js/runtime-main.1e2c39ec.js.map",
-    "static/js/2.8b479baa.chunk.js": "/http//anhdo9797.github.io/teamwork/static/js/2.8b479baa.chunk.js",
-    "static/js/2.8b479baa.chunk.js.map": "/http//anhdo9797.github.io/teamwork/static/js/2.8b479baa.chunk.js.map",
-    "index.html": "/http//anhdo9797.github.io/teamwork/index.html",
-    "precache-manifest.fa5c51e6ccaff0e357ad41aa249a430b.js": "/http//anhdo9797.github.io/teamwork/precache-manifest.fa5c51e6ccaff0e357ad41aa249a430b.js",
-    "service-worker.js": "/http//anhdo9797.github.io/teamwork/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/http//anhdo9797.github.io/teamwork/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.8b479baa.chunk.js.LICENSE.txt": "/http//anhdo9797.github.io/teamwork/static/js/2.8b479baa.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/http//anhdo9797.github.io/teamwork/static/media/logo.5d5d9eef.svg"
+    "main.css": "/teamwork/static/css/main.5f361e03.chunk.css",
+    "main.js": "/teamwork/static/js/main.53e17b65.chunk.js",
+    "main.js.map": "/teamwork/static/js/main.53e17b65.chunk.js.map",
+    "runtime-main.js": "/teamwork/static/js/runtime-main.682a4738.js",
+    "runtime-main.js.map": "/teamwork/static/js/runtime-main.682a4738.js.map",
+    "static/js/2.8b479baa.chunk.js": "/teamwork/static/js/2.8b479baa.chunk.js",
+    "static/js/2.8b479baa.chunk.js.map": "/teamwork/static/js/2.8b479baa.chunk.js.map",
+    "index.html": "/teamwork/index.html",
+    "precache-manifest.4b9c1851f18104dba3c6181fc119524d.js": "/teamwork/precache-manifest.4b9c1851f18104dba3c6181fc119524d.js",
+    "service-worker.js": "/teamwork/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/teamwork/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.8b479baa.chunk.js.LICENSE.txt": "/teamwork/static/js/2.8b479baa.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/teamwork/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e2c39ec.js",
+    "static/js/runtime-main.682a4738.js",
     "static/js/2.8b479baa.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c014c32a.chunk.js"
+    "static/js/main.53e17b65.chunk.js"
   ]
 }
