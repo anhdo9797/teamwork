@@ -1,0 +1,81 @@
+#news{
+    :focus{
+        outline: none;
+    }
+    .get-in-touch{
+        width: 100%;
+        border-radius: 50px;
+        padding: 100px 0;
+        color: white;
+        text-align: center;
+        background: red url('/src/assets/image/service.jpg');
+        .mask-cover{
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+        .txt-quote{
+            font-size: 15px;
+        }
+        .intro-bold{
+            font-weight: bolder;
+            font-size: 54px;
+        }
+        .intro-light{
+            font-size: 54px;
+            color: #DBDBDB;
+        }
+        .btn-get-started{
+            border-radius: 8px;
+            background-color: #FF268B;
+            min-height: 46px;
+            min-width: 165px;
+            border: none;
+            color: white;
+            font-size: 12px;
+            margin: 24px;
+            transform: 0.2s ease;
+            cursor: pointer;
+        }
+        .btn-get-started:hover{
+            opacity: 0.8;
+        }
+    }
+    .our-insight{
+        padding: 100px 0;
+        .last-news{
+            text-align: center;
+        }
+        .last-news>div:first-child{
+            font-size: 21px;
+            font-weight: bold;
+            color: #019DD8;
+        }
+        .last-news>div:last-child{
+            font-size: 45px;
+            color: #686868;
+        }
+        .txt-news{
+            color: #95A1AC;
+            font-size: 18px;
+            width: 40%;
+            text-align: justify;
+            margin: 60px 0;
+        }
+    }
+    .group-card{
+        display: flex;
+        .card{
+            display: flex;
+            flex-direction: column;
+            word-wrap: break-word;
+            background-color: #fff;
+            margin: 20px;
+            box-shadow: rgba(0,0,0,.125);
+            .txt-card{
+                margin: 20px;
+            }
+        }
+    }
+}
