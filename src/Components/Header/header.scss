@@ -1,5 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/d9e24a306397c4e3cad3a8707c535715?family=AinslieW01-CondRegular);
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
 .searchIcon {
   color: #ffff;
 }
@@ -12,7 +12,7 @@ button {
 }
 
 .header {
-  background-image: url("../../assets/image/bg-header.png");
+  background-image: url('../../assets/image/bg-header.png');
   height: 783px;
   width: 100%;
   display: flex;
@@ -67,25 +67,17 @@ button {
 
       .iconButton {
         margin-right: 30px;
+        transition: 0.4s;
+        icon-icon {
+          transition: 0.5s;
+        }
       }
       .iconButton:hover {
         box-shadow: 1px 1px -5px 8px black;
-      }
-
-      .contactUs {
-        width: 150px;
-        height: 45px;
-        font-size: 15px;
-        color: #ffff;
-        transition: 0.5s;
-        background-color: #ff268b;
-        font-family: "Titillium Web", sans-serif;
-      }
-      .contactUs:hover {
-        background-color: transparent;
-        color: #ff268b;
-        border: 1px solid #ff268b;
-        font-weight: bold;
+        ion-icon {
+          transform: scale(1.2);
+          box-shadow: -7px 10px 42px -16px rgba(0, 0, 0, 0.75);
+        }
       }
     }
   }
@@ -95,7 +87,7 @@ button {
     position: relative;
     width: 95%;
     .text {
-      padding-right: 30px;
+      //   padding-right: 30px;
       .wrapLabel {
         position: relative;
 
@@ -118,12 +110,218 @@ button {
       h3 {
         font-size: 18px;
         color: #9a9a9a;
+        margin-bottom: 35px;
+      }
+
+      button {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0;
+        transition: 0.4s;
+        font-family: 'Montserrat Alternates', sans-serif;
+        transition: 0.5s;
+      }
+      button:hover {
+        text-decoration: underline;
+        transform: scale(1.01);
       }
     }
 
     .girl {
       height: 577px;
       width: auto;
+    }
+  }
+}
+
+.contactUs {
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+  color: #ffff;
+  transition: 0.5s;
+  background-color: #ff268b;
+  font-family: 'Titillium Web', sans-serif;
+}
+.contactUs:hover {
+  background-color: transparent;
+  color: #ff268b;
+  border: 1px solid #ff268b;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: -7px 10px 42px -13px #ff268b;
+  text-shadow: 1px 1px 19px #ff268b;
+}
+
+.ant-drawer-body {
+  display: flex;
+  flex-direction: column;
+  a {
+    margin-right: 37px;
+    font-size: 15px;
+    color: #3a364e;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  .contactUs {
+    width: 100%;
+  }
+}
+
+.ant-drawer-header {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 756px) {
+  .header {
+    .wrapNav {
+      .nav {
+        display: none;
+      }
+      .buttonMenu {
+        font-size: 18px;
+      }
+    }
+    .wrapDriving {
+      width: 100%;
+      .girl {
+        display: none;
+      }
+
+      .text {
+        width: 100%;
+        .wrapLabel {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          .hiddenOnMobile {
+            display: none;
+          }
+
+          .line {
+            bottom: -5;
+          }
+          h2 {
+            font-size: 35px;
+            text-align: center;
+          }
+        }
+        h3 {
+          font-size: 16px;
+          text-align: center;
+        }
+
+        button {
+          margin: 0 auto;
+        }
+        .wrapButton {
+          justify-content: center;
+          display: flex;
+          align-items: flex-start;
+          .wrapLatestProject {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 756px) {
+  .header {
+    .wrapNav {
+      .nav {
+        display: none;
+        a {
+          margin-right: 1vw;
+        }
+      }
+      .buttonMenu {
+        font-size: 18px;
+      }
+    }
+
+    .showOnMobile {
+      display: inline;
+    }
+    .wrapDriving {
+      width: 100%;
+      .girl {
+        display: none;
+      }
+
+      .text {
+        width: 100%;
+        .wrapLabel {
+          position: relative;
+          display: flex;
+
+          .hiddenOnMobile {
+            display: flex;
+          }
+        }
+
+        .wrapButton {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          .wrapLatestProject {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .header {
+    .wrapNav {
+      .nav {
+        display: flex;
+      }
+      .buttonMenu {
+        font-size: 18px;
+      }
+    }
+
+    .showOnMobile {
+      display: none;
+    }
+    .wrapDriving {
+      width: 100%;
+      .girl {
+        display: flex;
+      }
+
+      .text {
+        width: 100%;
+        .wrapLabel {
+          position: relative;
+          display: flex;
+          h2 {
+            font-size: 55px;
+          }
+
+          .hiddenOnMobile {
+            display: flex;
+          }
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+
+        .wrapButton {
+          display: flex;
+          justify-content: flex-start;
+        }
+      }
     }
   }
 }
