@@ -32,6 +32,34 @@ const linkMobile = (to, label) => (
   </NavLink>
 );
 
+const IconNotification = ({}) => {
+  return (
+    <button className="iconButton">
+      <Tooltip placement="bottomLeft" title="Notifications" trigger="click">
+        <Badge count={4} size={'small'} title="4 notifications">
+          <ion-icon name="notifications"></ion-icon>
+        </Badge>
+      </Tooltip>
+    </button>
+  );
+};
+
+const IconSearch = ({ onClick }) => {
+  return (
+    <Tooltip placement="bottomLeft" title="Search" trigger="click">
+      <button
+        style={{
+          color: '#FF268B',
+        }}
+        className="iconButton"
+        onClick={onClick}
+      >
+        <ion-icon name="search" />
+      </button>
+    </Tooltip>
+  );
+};
+
 class Header extends React.Component {
   state = {
     visible: false,
@@ -40,6 +68,7 @@ class Header extends React.Component {
 
   showMenu = () => this.setState({ visible: true });
   closeMenu = () => this.setState({ visible: false });
+
   render() {
     const { visible, showSearch } = this.state;
     return (
@@ -59,8 +88,9 @@ class Header extends React.Component {
               <a href="/contact">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
+
               <a href="/contact">
-                <img src={fb} alt="icon" width="11" height="11" />
+                <ion-icon name="logo-facebook"></ion-icon>
               </a>
               <a href="/contact">
                 <ion-icon name="earth-outline"></ion-icon>
@@ -79,24 +109,9 @@ class Header extends React.Component {
                 {link('/products', 'Products')}
                 {link('/resource', 'Resource')}
 
-                <button className="iconButton">
-                  <Tooltip placement="bottomLeft" title="Notifications" trigger="click">
-                    <Badge count={4} size={'small'} title="4 notifications">
-                      <ion-icon name="notifications"></ion-icon>
-                    </Badge>
-                  </Tooltip>
-                </button>
+                <IconNotification />
+                <IconSearch />
 
-                <Tooltip placement="bottomLeft" title="Search" trigger="click">
-                  <button
-                    style={{
-                      color: '#FF268B',
-                    }}
-                    className="iconButton"
-                  >
-                    <ion-icon name="search" />
-                  </button>
-                </Tooltip>
                 <Tooltip placement="bottomLeft" title="Contact us" trigger="click">
                   <button className="contactUs">Contact us</button>
                 </Tooltip>
@@ -115,26 +130,11 @@ class Header extends React.Component {
                 {linkMobile('/products', 'Products')}
                 {linkMobile('/resource', 'Resource')}
                 <div style={{ display: 'flex', height: 30, margin: '10px 0' }}>
-                  <button className="iconButton">
-                    <Tooltip placement="bottomLeft" title="Notifications" trigger="click">
-                      <Badge count={4} size={'small'} title="4 notifications">
-                        <ion-icon name="notifications"></ion-icon>
-                      </Badge>
-                    </Tooltip>
-                  </button>
+                  <IconNotification />
+
                   {this.state.showSearch ? <Input placeholder="search" /> : null}
 
-                  <Tooltip placement="bottomLeft" title="Search" trigger="click">
-                    <button
-                      style={{
-                        color: '#FF268B',
-                      }}
-                      className="iconButton"
-                      onClick={() => this.setState({ showSearch: !showSearch })}
-                    >
-                      <ion-icon name="search" />
-                    </button>
-                  </Tooltip>
+                  <IconSearch onClick={() => this.setState({ showSearch: !showSearch })} />
                 </div>
 
                 <Tooltip placement="bottomLeft" title="Contact us" trigger="click">
