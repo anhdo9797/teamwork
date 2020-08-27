@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/teamwork/static/css/main.5f361e03.chunk.css",
-    "main.js": "/teamwork/static/js/main.53e17b65.chunk.js",
-    "main.js.map": "/teamwork/static/js/main.53e17b65.chunk.js.map",
+    "main.css": "/teamwork/static/css/main.23c834dc.chunk.css",
+    "main.js": "/teamwork/static/js/main.9b0db590.chunk.js",
+    "main.js.map": "/teamwork/static/js/main.9b0db590.chunk.js.map",
     "runtime-main.js": "/teamwork/static/js/runtime-main.682a4738.js",
     "runtime-main.js.map": "/teamwork/static/js/runtime-main.682a4738.js.map",
-    "static/js/2.8b479baa.chunk.js": "/teamwork/static/js/2.8b479baa.chunk.js",
-    "static/js/2.8b479baa.chunk.js.map": "/teamwork/static/js/2.8b479baa.chunk.js.map",
+    "static/css/2.847e01e0.chunk.css": "/teamwork/static/css/2.847e01e0.chunk.css",
+    "static/js/2.a984e16f.chunk.js": "/teamwork/static/js/2.a984e16f.chunk.js",
+    "static/js/2.a984e16f.chunk.js.map": "/teamwork/static/js/2.a984e16f.chunk.js.map",
     "index.html": "/teamwork/index.html",
-    "precache-manifest.4b9c1851f18104dba3c6181fc119524d.js": "/teamwork/precache-manifest.4b9c1851f18104dba3c6181fc119524d.js",
+    "precache-manifest.b19f04da4160325ef2e21f297281b98e.js": "/teamwork/precache-manifest.b19f04da4160325ef2e21f297281b98e.js",
     "service-worker.js": "/teamwork/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/teamwork/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.8b479baa.chunk.js.LICENSE.txt": "/teamwork/static/js/2.8b479baa.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/teamwork/static/media/logo.5d5d9eef.svg"
+    "static/css/2.847e01e0.chunk.css.map": "/teamwork/static/css/2.847e01e0.chunk.css.map",
+    "static/css/main.23c834dc.chunk.css.map": "/teamwork/static/css/main.23c834dc.chunk.css.map",
+    "static/js/2.a984e16f.chunk.js.LICENSE.txt": "/teamwork/static/js/2.a984e16f.chunk.js.LICENSE.txt",
+    "static/media/header.scss": "/teamwork/static/media/bg-header.673c3e0a.png",
+    "static/media/girl.png": "/teamwork/static/media/girl.1fcfb497.png"
   },
   "entrypoints": [
     "static/js/runtime-main.682a4738.js",
-    "static/js/2.8b479baa.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.53e17b65.chunk.js"
+    "static/css/2.847e01e0.chunk.css",
+    "static/js/2.a984e16f.chunk.js",
+    "static/css/main.23c834dc.chunk.css",
+    "static/js/main.9b0db590.chunk.js"
   ]
 }
