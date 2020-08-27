@@ -4,10 +4,9 @@ import { Badge, Tooltip, Drawer, Input } from 'antd';
 import { NavLink } from 'react-router-dom';
 
 import './header.scss';
-import { fb, logo } from '../../assets/icon';
+import { logo } from '../../assets/icon';
 import { girl, line } from '../../assets/image';
 
-import abc from '../../assets/image';
 
 const link = (to, label) => (
   <NavLink
