@@ -25,7 +25,7 @@ class News extends React.Component {
             <div className="last-news">
               <div>LATEST NEWS</div>
               <div>
-                <strong>Ours insights</strong> & creative ideas{" "}
+                <strong>Ours insights</strong> & creative ideas
               </div>
             </div>
             <div className="txt-news">
@@ -52,7 +52,7 @@ class News extends React.Component {
                     typesetting industry.Collection with gift on which until
                     accounts
                   </div>
-                  <button>Read More</button>
+                  <button className="read-more">Read More</button>
                 </div>
               </div>
               <div className="card">
@@ -73,7 +73,7 @@ class News extends React.Component {
                     typesetting industry.Collection with gift on which until
                     accounts
                   </div>
-                  <button>Read More</button>
+                  <button className="read-more">Read More</button>
                 </div>
               </div>
               <div className="card">
@@ -94,11 +94,11 @@ class News extends React.Component {
                     typesetting industry.Collection with gift on which until
                     accounts
                   </div>
-                  <button>Read More</button>
+                  <button className="read-more">Read More</button>
                 </div>
               </div>
             </div>
-            <button>View All posts</button>
+            <div className="view-all"> <button className="btn-view-all">View All posts</button></div>
           </div>
         </div>
         </section>

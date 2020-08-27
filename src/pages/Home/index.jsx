@@ -1,7 +1,7 @@
 import React from "react";
 import BuildBrands from "../../components/BuildBrands";
 import News from "../../components/News";
-
+import Footer from "../../components/Footer";
 
 
 class Home extends React.Component {
@@ -10,6 +10,7 @@ class Home extends React.Component {
       <div>
         <BuildBrands />
         <News />
+        <Footer /> 
       </div>
     );
   }
