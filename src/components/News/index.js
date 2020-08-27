@@ -90,7 +90,6 @@ class News extends React.Component {
                                 </div>
                             </div>
                             <div className="view-all">
-                                {' '}
                                 <button className="btn-view-all">View All posts</button>
                             </div>
                         </div>
