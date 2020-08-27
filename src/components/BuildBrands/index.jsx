@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/img-redundant-alt */ 
 import React from "react";
 import "./style.scss";
 import { build2, build1, build3, build4, line } from "../../assets/image";

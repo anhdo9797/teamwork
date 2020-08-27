@@ -3,6 +3,7 @@ import './style.scss';
 import {card1, card2, card3} from "../../assets/image";
 import { DatePicker } from 'antd';
 
+
 class News extends React.Component {
   render() {
     return (
@@ -81,7 +82,7 @@ class News extends React.Component {
                 <div className="txt-card">
                   <div className="date-ceo">
                     <div className="date">
-                      <div>Date-time bỏ icon DatePicker vào</div>
+                      <div>{<DatePicker />}</div>
                       <div>DatePicker</div>
                     </div>
                     <div className="ceo">
@@ -106,4 +107,5 @@ class News extends React.Component {
     );
   }
 }
+
 export default News;

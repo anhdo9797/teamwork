@@ -1,4 +1,6 @@
 #news {
+  overflow: hidden;
+  position: relative;
   :focus {
     outline: none;
   }
@@ -14,7 +16,9 @@
       padding: 100px 0;
       color: white;
       text-align: center;
-      background: red url("/src/assets/image/service.jpg");
+      background: url("../../assets/image/service.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
       .mask-cover {
         top: 0;
         right: 0;
@@ -56,7 +60,6 @@
       .last-news > div:first-child {
         font-size: 21px;
         font-weight: bold;
-        color: #019dd8;
       }
       .last-news > div:last-child {
         font-size: 45px;
@@ -73,14 +76,21 @@
     .group-card {
       display: flex;
       .card {
+        box-shadow: 2px 2px 8px 2px #888888;
         display: flex;
         flex-direction: column;
         word-wrap: break-word;
         background-color: #fff;
         margin: 20px;
-        box-shadow: rgba(0, 0, 0, 0.125);
+        width: 25%;
+        margin-right: 5rem;
+        .card-img-top{
+          width: 100%;
+          object-fit: cover;
+          height: 260px;
+        }
         .txt-card {
-          margin: 20px;
+           margin: 20px;
           .read-more {
             border: none;
             background: none;
@@ -92,6 +102,9 @@
             margin-top: 10px;
           }
         }
+      }
+      .card:last-child{
+        margin-right: 0;
       }
     }
   }
