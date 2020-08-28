@@ -7,7 +7,6 @@ import './header.scss';
 import { logo } from '../../assets/icon';
 import { girl, line } from '../../assets/image';
 
-
 const link = (to, label) => (
   <NavLink
     to={to}

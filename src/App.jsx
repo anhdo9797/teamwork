@@ -7,11 +7,11 @@ import 'antd/dist/antd.css';
 import Home from './pages/Home';
 
 function App() {
-    return (
-        <Router>
-            <Home />
-        </Router>
-    );
+  return (
+    <Router>
+      <Home />
+    </Router>
+  );
 }
 
 export default App;

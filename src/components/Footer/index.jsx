@@ -1,7 +1,6 @@
-import React from "react";
-import "./style.scss";
+import React from 'react';
+import './style.scss';
 import 'antd/dist/antd.css';
-
 
 class Footer extends React.Component {
   render() {
@@ -12,7 +11,10 @@ class Footer extends React.Component {
             <div className="row">
               <div className="col-4">
                 <h5>Offices</h5>
-                <div>50 Raritan Center Pkwy, <br />Edison, NJ 08837, USA</div>
+                <div>
+                  50 Raritan Center Pkwy, <br />
+                  Edison, NJ 08837, USA
+                </div>
                 <div>
                   <div>icon</div>
                   <div>8080000000</div>
@@ -58,5 +60,5 @@ class Footer extends React.Component {
     );
   }
 }
- 
+
 export default Footer;
