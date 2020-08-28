@@ -1,0 +1,38 @@
+.createStudio {
+  .create {
+    display: flex;
+    // flex-wrap: wrap;
+    .text {
+      margin: 0 auto;
+      min-width: 320px;
+    }
+    .video {
+      max-width: 650px;
+      margin-left: 30px;
+      transition: 0.5s;
+      width: 100%;
+    }
+    .video:hover {
+      transform: scale(1.02);
+      -webkit-box-shadow: 2px 2px 32px -11px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 2px 2px 32px -11px rgba(0, 0, 0, 0.75);
+      box-shadow: 2px 2px 32px -11px rgba(0, 0, 0, 0.75);
+    }
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .createStudio {
+    .create {
+      display: flex;
+      flex-direction: column;
+      .text {
+        margin: 0 auto;
+        text-align: center;
+      }
+      .video {
+        margin: 0 auto;
+      }
+    }
+  }
+}
