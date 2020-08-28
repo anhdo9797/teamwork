@@ -20,9 +20,9 @@ class Home extends React.Component {
           <img className="donors" src={donors} />
         </div>
         <CreateStudio />
-        {/* <BuildBrands />
+        <BuildBrands />
         <News />
-        <Footer /> */}
+        <Footer />
       </div>
     );
   }
