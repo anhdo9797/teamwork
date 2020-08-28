@@ -2,8 +2,8 @@
 module.exports = {
     singleQuote: true,
     trailingComma: 'all',
-    printWidth: 180,
-    tabWidth: 4,
+    printWidth: 810,
+    tabWidth: 2,
     proseWrap: 'never',
     endOfLine: 'auto',
     overrides: [
