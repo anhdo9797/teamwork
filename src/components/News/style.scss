@@ -9,7 +9,7 @@
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px;
-        max-width: 1440px;
+        max-width: 1140px;
         .get-in-touch {
             width: 100%;
             border-radius: 50px;
@@ -19,11 +19,18 @@
             background: url('../../assets/image/service.jpg') no-repeat;
             background-size: cover;
             background-position: center;
+            position: relative;
+            object-fit: cover;
             .mask-cover {
+                z-index: 0;
+                position: absolute !important;
                 top: 0;
-                right: 0;
-                left: 0;
                 bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: #019dd8;
+                opacity: 0.2;
+                border-radius: 50px;
             }
             .txt-quote {
                 font-size: 15px;
@@ -45,12 +52,17 @@
                 color: white;
                 font-size: 12px;
                 margin: 24px;
-                transform: 0.2s ease;
+                transition: 0.2s ease;
                 cursor: pointer;
+                position: relative;
             }
             .btn-get-started:hover {
                 opacity: 0.8;
             }
+        }
+        .get-in-touch > div {
+            position: relative;
+            z-index: 20;
         }
         .our-insight {
             padding: 100px 0;
@@ -149,14 +161,28 @@
 @media (max-width: 576px) {
     #news {
         .container {
+            .get-in-touch {
+                .intro-bold,
+                .intro-light {
+                    font-size: 42px;
+                }
+            }
             .our-insight {
                 .group-card {
                     display: block;
                     .card {
                         width: 100%;
-                        margin: 0;
-                        margin-right: 0;
                         margin-bottom: 5rem;
+                        background-color: #f6f5f6;
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        min-width: 0;
+                        background-clip: border-box;
+                        border-radius: 0.25rem;
+                        margin-right: 1rem;
+                        margin-left: 1rem;
+                        margin-top: 5rem;
                     }
                 }
                 .txt-news {
@@ -181,7 +207,7 @@
                     .card {
                         height: 100%;
                         margin: 0;
-                        margin-right: 2rem;
+                        margin-right: 0;
                         width: 30%;
                     }
                 }
