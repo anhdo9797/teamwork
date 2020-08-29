@@ -6,11 +6,11 @@ import 'antd/dist/antd.css';
 import Home from './pages/Home';
 
 function App() {
-  return (
-    <BrowserRouter basename="/teamwork">
-      <Home />
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter basename="/teamwork">
+            <Home />
+        </BrowserRouter>
+    );
 }
 
 export default App;
