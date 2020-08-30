@@ -41,20 +41,42 @@ class Footer extends React.Component {
                             </div>
                             <div className="col-4">
                                 <h5>Service</h5>
-                                <div>Portfolio</div>
-                                <div>About</div>
-                                <div>Marketplace</div>
-                                <div>Experts</div>
-                                <div>Blog</div>
+                                <div>
+                                    <a href="#">Portfolio</a>
+                                </div>
+                                <div>
+                                    <a href="#">About</a>
+                                </div>
+                                <div>
+                                    <a href="#">Marketplace</a>
+                                </div>
+                                <div>
+                                    <a href="#">Experts</a>
+                                </div>
+                                <div>
+                                    <a href="#">Blog</a>
+                                </div>
                             </div>
                             <div className="col-4">
                                 <h5>Popular</h5>
-                                <div>Free videos</div>
-                                <div>Tools, apps and plugins</div>
-                                <div>Blog</div>
-                                <div>Photo license</div>
-                                <div>FAQ</div>
-                                <div>API</div>
+                                <div>
+                                    <a href="#">Free videos</a>
+                                </div>
+                                <div>
+                                    <a href="#">Tools, apps and plugins</a>
+                                </div>
+                                <div>
+                                    <a href="#">Blog</a>
+                                </div>
+                                <div>
+                                    <a href="#">Photo license</a>
+                                </div>
+                                <div>
+                                    <a href="#">FAQ</a>
+                                </div>
+                                <div>
+                                    <a href="#">API</a>
+                                </div>
                             </div>
                             <div className="col-4">
                                 <h5>Service</h5>

@@ -4,6 +4,7 @@
     font-size: 15px;
     background: #f6f5f6;
     padding: 100px 0;
+    // background: url('../../assets/image/bg-footer.png');
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -25,9 +26,9 @@
                     font-size: 15px;
                     color: #3a364e;
                     min-height: 2rem;
-                }
-                svg.ionicon.s-ion-icon {
-                    font-size: 20px;
+                    a {
+                        color: #3a364e;
+                    }
                 }
             }
         }
