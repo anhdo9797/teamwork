@@ -1,40 +1,36 @@
 {
   "files": {
-    "main.css": "/teamwork/static/css/main.927f71c4.chunk.css",
-    "main.js": "/teamwork/static/js/main.06bfc5a8.chunk.js",
-    "main.js.map": "/teamwork/static/js/main.06bfc5a8.chunk.js.map",
+    "main.css": "/teamwork/static/css/main.aa4139dc.chunk.css",
+    "main.js": "/teamwork/static/js/main.2687a4e0.chunk.js",
+    "main.js.map": "/teamwork/static/js/main.2687a4e0.chunk.js.map",
     "runtime-main.js": "/teamwork/static/js/runtime-main.682a4738.js",
     "runtime-main.js.map": "/teamwork/static/js/runtime-main.682a4738.js.map",
     "static/css/2.847e01e0.chunk.css": "/teamwork/static/css/2.847e01e0.chunk.css",
-    "static/js/2.3f05cc40.chunk.js": "/teamwork/static/js/2.3f05cc40.chunk.js",
-    "static/js/2.3f05cc40.chunk.js.map": "/teamwork/static/js/2.3f05cc40.chunk.js.map",
+    "static/js/2.0b59269f.chunk.js": "/teamwork/static/js/2.0b59269f.chunk.js",
+    "static/js/2.0b59269f.chunk.js.map": "/teamwork/static/js/2.0b59269f.chunk.js.map",
     "index.html": "/teamwork/index.html",
-    "precache-manifest.56a5db6d3b50adebaf32b1c1e6406a46.js": "/teamwork/precache-manifest.56a5db6d3b50adebaf32b1c1e6406a46.js",
+    "precache-manifest.1398ef38099be1953a611342d8717f99.js": "/teamwork/precache-manifest.1398ef38099be1953a611342d8717f99.js",
     "service-worker.js": "/teamwork/service-worker.js",
     "static/css/2.847e01e0.chunk.css.map": "/teamwork/static/css/2.847e01e0.chunk.css.map",
-    "static/css/main.927f71c4.chunk.css.map": "/teamwork/static/css/main.927f71c4.chunk.css.map",
-    "static/js/2.3f05cc40.chunk.js.LICENSE.txt": "/teamwork/static/js/2.3f05cc40.chunk.js.LICENSE.txt",
+    "static/css/main.aa4139dc.chunk.css.map": "/teamwork/static/css/main.aa4139dc.chunk.css.map",
+    "static/js/2.0b59269f.chunk.js.LICENSE.txt": "/teamwork/static/js/2.0b59269f.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/teamwork/static/media/1.c2aae222.jpg",
     "static/media/2.jpg": "/teamwork/static/media/2.1a267ebb.jpg",
     "static/media/3.jpg": "/teamwork/static/media/3.49c476fe.jpg",
     "static/media/4.jpg": "/teamwork/static/media/4.4f77229b.jpg",
-    "static/media/Donors.png": "/teamwork/static/media/Donors.7db402ad.png",
     "static/media/Line2.svg": "/teamwork/static/media/Line2.2c08df69.svg",
     "static/media/header.scss": "/teamwork/static/media/bg-header.673c3e0a.png",
     "static/media/card1.jpg": "/teamwork/static/media/card1.9b7835e8.jpg",
     "static/media/card2.jpg": "/teamwork/static/media/card2.c95b28f0.jpg",
     "static/media/card3.jpg": "/teamwork/static/media/card3.5d2fb63e.jpg",
-    "static/media/circle.png": "/teamwork/static/media/circle.6b9efcf2.png",
     "static/media/girl.png": "/teamwork/static/media/girl.1fcfb497.png",
-    "static/media/pattern.png": "/teamwork/static/media/pattern.adbf4de5.png",
-    "static/media/style.scss": "/teamwork/static/media/service.e18244f5.jpg",
-    "static/media/videoStudio.png": "/teamwork/static/media/videoStudio.d55c1b24.png"
+    "static/media/style.scss": "/teamwork/static/media/service.e18244f5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.682a4738.js",
     "static/css/2.847e01e0.chunk.css",
-    "static/js/2.3f05cc40.chunk.js",
-    "static/css/main.927f71c4.chunk.css",
-    "static/js/main.06bfc5a8.chunk.js"
+    "static/js/2.0b59269f.chunk.js",
+    "static/css/main.aa4139dc.chunk.css",
+    "static/js/main.2687a4e0.chunk.js"
   ]
 }

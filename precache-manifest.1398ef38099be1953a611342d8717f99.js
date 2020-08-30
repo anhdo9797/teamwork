@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ed8b807b09371f2d349370348e29dbd",
+    "revision": "dbafa50ee85e17422583da7e6a3e7421",
     "url": "/teamwork/index.html"
   },
   {
-    "revision": "b28d471294b39e5f69bb",
+    "revision": "e64bc12c566b22d3c13e",
     "url": "/teamwork/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "f076f82f1e10015dbd73",
-    "url": "/teamwork/static/css/main.927f71c4.chunk.css"
+    "revision": "4c5796f42cd785a64356",
+    "url": "/teamwork/static/css/main.aa4139dc.chunk.css"
   },
   {
-    "revision": "b28d471294b39e5f69bb",
-    "url": "/teamwork/static/js/2.3f05cc40.chunk.js"
+    "revision": "e64bc12c566b22d3c13e",
+    "url": "/teamwork/static/js/2.0b59269f.chunk.js"
   },
   {
     "revision": "e4f6fd5e687738d725e56603861f1923",
-    "url": "/teamwork/static/js/2.3f05cc40.chunk.js.LICENSE.txt"
+    "url": "/teamwork/static/js/2.0b59269f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f076f82f1e10015dbd73",
-    "url": "/teamwork/static/js/main.06bfc5a8.chunk.js"
+    "revision": "4c5796f42cd785a64356",
+    "url": "/teamwork/static/js/main.2687a4e0.chunk.js"
   },
   {
     "revision": "bbb4c44f2640202f02b6",
@@ -44,10 +44,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teamwork/static/media/4.4f77229b.jpg"
   },
   {
-    "revision": "7db402addc75924086162242d7878a8b",
-    "url": "/teamwork/static/media/Donors.7db402ad.png"
-  },
-  {
     "revision": "2c08df69e2e40e7de373c61775c188af",
     "url": "/teamwork/static/media/Line2.2c08df69.svg"
   },
@@ -68,23 +64,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teamwork/static/media/card3.5d2fb63e.jpg"
   },
   {
-    "revision": "6b9efcf20c9de8446c95a542b46ec6ba",
-    "url": "/teamwork/static/media/circle.6b9efcf2.png"
-  },
-  {
     "revision": "1fcfb49788b8236a8e6a4bd7819f187f",
     "url": "/teamwork/static/media/girl.1fcfb497.png"
   },
   {
-    "revision": "adbf4de58c98470280711efcf100c196",
-    "url": "/teamwork/static/media/pattern.adbf4de5.png"
-  },
-  {
     "revision": "e18244f5f1e92cabdb3e9594d4d12641",
     "url": "/teamwork/static/media/service.e18244f5.jpg"
-  },
-  {
-    "revision": "d55c1b24cdc69792177db74f532a9d33",
-    "url": "/teamwork/static/media/videoStudio.d55c1b24.png"
   }
 ]);
