@@ -84,57 +84,64 @@
                 text-align: justify;
                 margin: 60px 0;
             }
-        }
-        .group-card {
-            display: flex;
-            .card {
-                box-shadow: 2px 2px 8px 2px #888888;
+            .row {
                 display: flex;
-                flex-direction: column;
-                word-wrap: break-word;
-                background-color: #fff;
-                margin: 20px;
-                width: 25%;
-                margin-right: 5rem;
-                .card-img-top {
-                    width: 100%;
-                    object-fit: cover;
-                    height: 260px;
-                }
-                .txt-card {
-                    margin: 20px;
-                    .read-more {
-                        border: none;
-                        background: none;
-                        font-size: 15px;
-                        color: #256ece;
-                        padding: 0;
-                        cursor: pointer;
-                        transform: 0.2s ease;
-                        margin-top: 10px;
-                    }
-                    .date-ceo {
-                        display: flex;
-                        justify-content: right;
-                        align-items: center;
-                        margin-bottom: 2rem;
-                        .ceo {
-                            display: flex;
-                            justify-content: right;
-                            align-items: center;
-                            margin-left: 4rem;
+                width: 100%;
+                .group-card {
+                    margin-right: 30px;
+                    transform: 0.2s ease;
+                    .card {
+                        min-width: 0;
+                        border-radius: 0.25rem;
+                        box-shadow: 2px 2px 8px 2px #888888;
+                        background-color: #fff;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        width: 100%;
+                        .card-img-top {
+                            width: 100%;
+                            object-fit: cover;
+                            height: 260px;
                         }
-                        .ceo > div {
-                            margin-right: 0.5rem;
+                        .card-body {
+                            padding: 1rem 0;
+                        }
+                        .txt-card {
+                            margin: 20px;
+                            .read-more {
+                                border: none;
+                                background: none;
+                                font-size: 15px;
+                                color: #256ece;
+                                padding: 0;
+                                cursor: pointer;
+                                transform: 0.2s ease;
+                                margin-top: 10px;
+                            }
+                            .date-ceo {
+                                display: flex;
+                                justify-content: right;
+                                align-items: center;
+                                margin-bottom: 2rem;
+                                .ceo {
+                                    display: flex;
+                                    justify-content: right;
+                                    align-items: center;
+                                    margin-left: 4rem;
+                                }
+                                .ceo > div {
+                                    margin-right: 0.5rem;
+                                }
+                            }
+                        }
+                        img {
+                            object-fit: cover;
                         }
                     }
                 }
-                img {
-                    object-fit: cover;
+                .group-card:hover {
+                    transform: scale(1.1);
                 }
-            }
-            .card:last-child {
-                margin-right: 0;
             }
         }
     }
@@ -150,7 +157,7 @@
             padding: 0 46px;
             border-radius: 9px;
             font-size: 12px;
-            margin: 88px;
+            margin: 88px 0;
         }
         .btn-view-all:hover {
             background: #019dd8;
@@ -158,57 +165,79 @@
         }
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     #news {
         .container {
             .get-in-touch {
                 .intro-bold,
                 .intro-light {
-                    font-size: 42px;
+                    font-size: 32px;
+                }
+                .txt-quote {
+                    font-size: 10px;
                 }
             }
             .our-insight {
-                .group-card {
-                    display: block;
-                    .card {
-                        width: 100%;
-                        margin-bottom: 5rem;
-                        background-color: #f6f5f6;
-                        position: relative;
-                        display: flex;
-                        flex-direction: column;
-                        min-width: 0;
-                        background-clip: border-box;
-                        border-radius: 0.25rem;
-                        margin-right: 1rem;
-                        margin-left: 1rem;
-                        margin-top: 5rem;
-                    }
-                }
                 .txt-news {
                     width: 100%;
+                }
+                .row {
+                    display: block;
+                    .group-card {
+                        margin-right: 0;
+                    }
                 }
             }
         }
     }
 }
+@media (min-width: 576px) {
+    #news {
+        .container {
+            .get-in-touch {
+                .intro-bold,
+                .intro-light {
+                    font-size: 32px;
+                }
+                .txt-quote {
+                    font-size: 10px;
+                }
+            }
+            .our-insight {
+                .txt-news {
+                    width: 100%;
+                }
+                .row {
+                    display: block;
+                    .group-card {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     #news {
         .container {
-            // .our-insight {
-            //     .txt-news {
-            //         width: 100%;
-            //         text-align: center;
-            //     }
-            // }
+            .get-in-touch {
+                .intro-bold,
+                .intro-light {
+                    font-size: 32px;
+                }
+                .txt-quote {
+                    font-size: 10px;
+                }
+            }
             .our-insight {
-                .group-card {
+                .txt-news {
+                    width: 100%;
+                }
+                .row {
                     display: flex;
-                    .card {
-                        height: 100%;
-                        margin: 0;
-                        margin-right: 0;
-                        width: 30%;
+                    .group-card {
+                        margin-right: 20px;
                     }
                 }
             }
@@ -216,27 +245,30 @@
     }
 }
 @media (min-width: 992px) {
-    // .our-insight {
-    //     .group-card {
-    //         display: flex;
-    //         .card {
-    //             width: 60%;
-    //             height: 100%;
-    //             margin: 2rem 8rem;
-    //             margin-right: 0;
-    //         }
-    //     }
-    // }
-}
-@media (min-width: 1200px) {
-    .our-insight {
-        .group-card {
-            .card {
-                width: 60%;
-                height: 100%;
-                margin: 2rem 8rem;
-                margin-right: 0;
+    #news {
+        .container {
+            .get-in-touch {
+                .intro-bold,
+                .intro-light {
+                    font-size: 42px;
+                }
+                .txt-quote {
+                    font-size: 10px;
+                }
+            }
+            .our-insight {
+                .txt-news {
+                    width: 40%;
+                }
+                .row {
+                    display: flex;
+                    .group-card {
+                        margin-right: 20px;
+                    }
+                }
             }
         }
     }
+}
+@media (min-width: 1200px) {
 }
