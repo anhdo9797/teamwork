@@ -4,7 +4,8 @@
     font-size: 15px;
     background: #f6f5f6;
     padding: 100px 0;
-    // background: url('../../assets/image/bg-footer.png');
+    background: url('../../assets/image/bg-footer.png');
+    
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -44,7 +45,7 @@
                     width: 30%;
                     div {
                         justify-content: center;
-                        min-height: 3rem;
+                        min-height: 2rem;
                     }
                 }
             }
@@ -61,7 +62,7 @@
                     width: 20%;
                     div {
                         justify-content: left;
-                        min-height: 3rem;
+                        min-height: 2rem;
                     }
                 }
             }
@@ -78,7 +79,7 @@
                     width: 25%;
                     div {
                         justify-content: left;
-                        min-height: 3rem;
+                        min-height: 2rem;
                     }
                 }
             }

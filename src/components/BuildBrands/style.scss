@@ -2,7 +2,7 @@
     background-color: #f6f5f6;
     overflow: hidden;
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
     .container {
         margin-left: auto;
         margin-right: auto;
@@ -53,6 +53,7 @@
                         margin-left: 1rem;
                         margin-top: 5rem;
                         margin-bottom: 1rem;
+                        cursor: pointer;
                         .card-img-top {
                             width: 100%;
                             height: 400px;
@@ -76,6 +77,9 @@
                             font-size: 27px;
                             color: #3a364e;
                         }
+                    }
+                    .card:hover{
+                        transform: scaleX(1.01);
                     }
                 }
             }
