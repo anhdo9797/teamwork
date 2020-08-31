@@ -82,3 +82,34 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    #build-brands {
+        .container {
+            .group-title {
+                display: block;
+            }
+            .intro-bold,
+            .intro-bold {
+                font-size: 38p;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #build-brands {
+        .container {
+            .intro-bold,
+            .intro-bold {
+                font-size: 38p;
+            }
+            .row .col-6 .group-card .card .card-body .card-txt {
+                font-size: 20px;
+            }
+        }
+    }
+    #build-brands .container .row .col-6 .group-card .card .card-txt > div:last-child {
+        font-size: 20px;
+    }
+}
