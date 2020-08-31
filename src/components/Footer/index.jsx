@@ -5,7 +5,7 @@ import { bgfooter } from '../../assets/image';
 import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
-    render() { 
+    render() {
         return (
             <div>
                 <section id="footer">
@@ -71,13 +71,13 @@ class Footer extends React.Component {
                                     <Link to="/about">Blog</Link>
                                 </div>
                                 <div>
-                                   <Link to="/about">Photo license</Link>
+                                    <Link to="/about">Photo license</Link>
                                 </div>
                                 <div>
-                                  <Link to="/about">FAQ</Link>
+                                    <Link to="/about">FAQ</Link>
                                 </div>
                                 <div>
-                                  <Link to="/about">API</Link>
+                                    <Link to="/about">API</Link>
                                 </div>
                             </div>
                             <div className="col-4">
@@ -92,7 +92,7 @@ class Footer extends React.Component {
                 </section>
             </div>
         );
-        }
-      } 
+    }
+}
 
 export default Footer;
