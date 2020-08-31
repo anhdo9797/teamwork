@@ -37,6 +37,7 @@ class News extends React.Component {
                                 <div className="col-3">
                                     <div className="group-card">
                                         <div className="card">
+                                            <div className="mask-cover"></div>
                                             <img className="card-img-top" src={card3} alt="Card image cap" />
                                             <div className="txt-card card-body">
                                                 <div className="date-ceo">
@@ -59,6 +60,7 @@ class News extends React.Component {
                                 <div className="col-3">
                                     <div className="group-card">
                                         <div className="card">
+                                            <div className="mask-cover"></div>
                                             <img className="card-img-top" src={card2} alt="Card image cap" />
                                             <div className="txt-card card-body">
                                                 <div className="date-ceo">
@@ -81,6 +83,7 @@ class News extends React.Component {
                                 <div className="col-3">
                                     <div className="group-card">
                                         <div className="card">
+                                            <div className="mask-cover"></div>
                                             <img className="card-img-top" src={card1} alt="Card image cap" />
                                             <div className="txt-card card-body">
                                                 <div className="date-ceo">
