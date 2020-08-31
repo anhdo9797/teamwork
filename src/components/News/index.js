@@ -33,62 +33,78 @@ class News extends React.Component {
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39s standard dummy text ever since the
                                 1500s, when an unkno
                             </div>
-                            <div className="group-card">
-                                <div className="card">
-                                    <img src={card1} alt="card" />
-                                    <div className="txt-card">
-                                        <div className="date-ceo">
-                                            <div className="date">
-                                                <div>{<DatePicker />}</div>
-                                            </div>
-                                            <div className="ceo">
-                                                <div>
-                                                    <UserOutlined />
+                            <div className="row">
+                                <div className="col-3">
+                                    <div className="group-card">
+                                        <div className="card">
+                                            <div className="mask-cover"></div>
+                                            <img className="card-img-top" src={card3} alt="Card image cap" />
+                                            <div className="txt-card card-body">
+                                                <div className="date-ceo">
+                                                    <div className="date">
+                                                        <div>{<DatePicker />}</div>
+                                                    </div>
+                                                    <div className="ceo">
+                                                        <div>
+                                                            <UserOutlined />
+                                                        </div>
+                                                        <div>CEO</div>
+                                                    </div>
                                                 </div>
-                                                <div>CEO</div>
+                                                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
+                                                <button className="read-more">Read More</button>
                                             </div>
                                         </div>
-                                        <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
-                                        <button className="read-more">Read More</button>
                                     </div>
                                 </div>
-                                <div className="card">
-                                    <img src={card2} alt="card-img" />
-                                    <div className="txt-card">
-                                        <div className="date-ceo">
-                                            <div className="date">
-                                                <div>{<DatePicker />}</div>
-                                            </div>
-                                            <div className="ceo">
-                                                <div>
-                                                    <UserOutlined />
+                                <div className="col-3">
+                                    <div className="group-card">
+                                        <div className="card">
+                                            <div className="mask-cover"></div>
+                                            <img className="card-img-top" src={card2} alt="Card image cap" />
+                                            <div className="txt-card card-body">
+                                                <div className="date-ceo">
+                                                    <div className="date">
+                                                        <div>{<DatePicker />}</div>
+                                                    </div>
+                                                    <div className="ceo">
+                                                        <div>
+                                                            <UserOutlined />
+                                                        </div>
+                                                        <div>CEO</div>
+                                                    </div>
                                                 </div>
-                                                <div>CEO</div>
+                                                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
+                                                <button className="read-more">Read More</button>
                                             </div>
                                         </div>
-                                        <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
-                                        <button className="read-more">Read More</button>
                                     </div>
                                 </div>
-                                <div className="card">
-                                    <img src={card3} alt="card-img" />
-                                    <div className="txt-card">
-                                        <div className="date-ceo">
-                                            <div className="date">
-                                                <div>{<DatePicker />}</div>
-                                            </div>
-                                            <div className="ceo">
-                                                <div>
-                                                    <UserOutlined />
+                                <div className="col-3">
+                                    <div className="group-card">
+                                        <div className="card">
+                                            <div className="mask-cover"></div>
+                                            <img className="card-img-top" src={card1} alt="Card image cap" />
+                                            <div className="txt-card card-body">
+                                                <div className="date-ceo">
+                                                    <div className="date">
+                                                        <div>{<DatePicker />}</div>
+                                                    </div>
+                                                    <div className="ceo">
+                                                        <div>
+                                                            <UserOutlined />
+                                                        </div>
+                                                        <div>CEO</div>
+                                                    </div>
                                                 </div>
-                                                <div>CEO</div>
+                                                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
+                                                <button className="read-more">Read More</button>
                                             </div>
                                         </div>
-                                        <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
-                                        <button className="read-more">Read More</button>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="view-all">
                                 <button className="btn-view-all">View All posts</button>
                             </div>
