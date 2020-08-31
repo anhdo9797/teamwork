@@ -2,6 +2,7 @@ import React from 'react';
 import './style.scss';
 import 'antd/dist/antd.css';
 import { bgfooter } from '../../assets/image';
+import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
     render() { 
@@ -43,40 +44,40 @@ class Footer extends React.Component {
                             <div className="col-4">
                                 <h5>Service</h5>
                                 <div>
-                                    <a href="#">Portfolio</a>
+                                    <Link to="/about">Portfolio</Link>
                                 </div>
                                 <div>
-                                    <a href="#">About</a>
+                                    <Link to="/about">About</Link>
                                 </div>
                                 <div>
-                                    <a href="#">Marketplace</a>
+                                    <Link to="/about">Marketplace</Link>
                                 </div>
                                 <div>
-                                    <a href="#">Experts</a>
+                                    <Link to="/about">Experts</Link>
                                 </div>
                                 <div>
-                                    <a href="#">Blog</a>
+                                    <Link to="/about">Blog</Link>
                                 </div>
                             </div>
                             <div className="col-4">
                                 <h5>Popular</h5>
                                 <div>
-                                    <a href="#">Free videos</a>
+                                    <Link to="/about">Free videos</Link>
                                 </div>
                                 <div>
-                                    <a href="#">Tools, apps and plugins</a>
+                                    <Link to="/about">Tools, apps and plugins</Link>
                                 </div>
                                 <div>
-                                    <a href="#">Blog</a>
+                                    <Link to="/about">Blog</Link>
                                 </div>
                                 <div>
-                                    <a href="#">Photo license</a>
+                                   <Link to="/about">Photo license</Link>
                                 </div>
                                 <div>
-                                    <a href="#">FAQ</a>
+                                  <Link to="/about">FAQ</Link>
                                 </div>
                                 <div>
-                                    <a href="#">API</a>
+                                  <Link to="/about">API</Link>
                                 </div>
                             </div>
                             <div className="col-4">
