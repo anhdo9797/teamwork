@@ -3,6 +3,7 @@ import './style.scss';
 import { card1, card2, card3 } from '../../assets/image';
 import { DatePicker } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
+import { Tooltip, Button} from 'antd';
 
 class News extends React.Component {
     render() {
@@ -20,7 +21,9 @@ class News extends React.Component {
                                     how we can help
                                 </span>
                             </div>
-                            <button className="btn-get-started">Get Started </button>
+                            <Tooltip placement="topLeft" title="Get Started">
+                                  <Button className="btn-get-started">Get Started</Button>
+                            </Tooltip>
                         </div>
                         <div className="our-insight">
                             <div className="last-news">
@@ -106,7 +109,9 @@ class News extends React.Component {
                             </div>
 
                             <div className="view-all">
-                                <button className="btn-view-all">View All posts</button>
+                                <Tooltip placement="topLeft" title="View All Posts">
+                                  <Button className="btn-view-all">View All posts</Button>
+                                </Tooltip>
                             </div>
                         </div>
                     </div>
@@ -115,4 +120,5 @@ class News extends React.Component {
         );
     }
 }
+
 export default News;

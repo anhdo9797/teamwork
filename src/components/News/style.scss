@@ -1,6 +1,7 @@
 #news {
     overflow: hidden;
     position: relative;
+    margin-top: -15%;
     :focus {
         outline: none;
     }
@@ -29,7 +30,7 @@
                 left: 0;
                 right: 0;
                 background-color: #019dd8;
-                opacity: 0.2;
+                opacity: 75%;
                 border-radius: 50px;
             }
             .txt-quote {
@@ -83,78 +84,89 @@
                 width: 40%;
                 text-align: justify;
                 margin: 60px 0;
-            }
-            .row {
-                display: flex;
-                width: 100%;
-                .group-card {
-                    margin-right: 40px;
-                    transform: 0.2s ease;
-                    .card {
-                        min-width: 0;
-                        border-radius: 0.25rem;
-                        box-shadow: 2px 2px 8px 2px #888888;
-                        background-color: #fff;
-                        margin-top: 30px;
-                        margin-bottom: 30px;
+            }               
+            .row{
+                .col-3{
+                    margin-right: 125px;
+                    .group-card {
+                        transform: 0.2s ease;
+                        display: flex;
                         width: 100%;
-                        position: relative;
-                        .mask-cover {
-                            z-index: 0;
-                            position: absolute !important;
-                            top: 0;
-                            bottom: 0;
-                            left: 0;
-                            right: 0;
-                            background-color: #019dd8;
-                            opacity: 0.2;
-                            height: 260px;
+                        .card:last-child {
+                            margin-right: 0;
                         }
-                        .card-img-top {
+                        .card {
+                            min-width: 0;
+                            border-radius: 0.25rem;
+                            box-shadow: 2px 2px 8px 2px #888888;
+                            background-color: #fff;
+                            margin-top: 30px;
+                            margin-bottom: 30px;
                             width: 100%;
-                            object-fit: cover;
-                            height: 260px;
-                        }
-                        .card-body {
-                            padding: 1rem 0;
-                        }
-                        .txt-card {
-                            margin: 20px;
-                            .read-more {
-                                border: none;
-                                background: none;
-                                font-size: 15px;
-                                color: #256ece;
-                                padding: 0;
-                                cursor: pointer;
-                                transform: 0.2s ease;
-                                margin-top: 10px;
+                            position: relative;
+                            .mask-cover {
+                                z-index: 0;
+                                position: absolute !important;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                right: 0;
+                                background-color: #019dd8;
+                                opacity: 50%;
+                                height: 260px;
                             }
-                            .date-ceo {
-                                display: flex;
-                                justify-content: right;
-                                align-items: center;
-                                margin-bottom: 2rem;
-                                .ceo {
+                            .card-img-top {
+                                width: 100%;
+                                object-fit: cover;
+                                height: 260px;
+                            }
+                            .card-body {
+                                padding: 1rem 0;
+                            }
+                            .txt-card {
+                                margin: 20px;
+                                .read-more {
+                                    border: none;
+                                    background: none;
+                                    font-size: 15px;
+                                    color: #256ece;
+                                    padding: 0;
+                                    cursor: pointer;
+                                    transform: 0.2s ease;
+                                    margin-top: 10px;
+                                }
+                                .date-ceo {
                                     display: flex;
                                     justify-content: right;
                                     align-items: center;
-                                    margin-left: 4rem;
-                                }
-                                .ceo > div {
-                                    margin-right: 0.5rem;
+                                    margin-bottom: 2rem;
+                                    .ceo {
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: center;
+                                        margin-left: 4rem;
+                                    }
+                                    .ceo > div {
+                                        margin-right: 0.5rem;
+                                    }
                                 }
                             }
+                            img {
+                                object-fit: cover;
+                            }
                         }
-                        img {
-                            object-fit: cover;
-                        }
+                        
+                    }
+                    .group-card:hover {
+                        transform: scale(1.03);
                     }
                 }
-                .group-card:hover {
-                    transform: scale(1.03);
+                .col-3:last-child{
+                    margin-right: 0;
                 }
             }
+            
+            
         }
     }
     .view-all {
@@ -179,6 +191,7 @@
 }
 @media (max-width: 575px) {
     #news {
+        margin-top: -200px;
         .container {
             .get-in-touch {
                 .intro-bold,
@@ -195,7 +208,7 @@
                 }
                 .row {
                     display: block;
-                    .group-card {
+                    .col-3 {
                         margin-right: 0;
                     }
                 }
@@ -221,7 +234,7 @@
                 }
                 .row {
                     display: block;
-                    .group-card {
+                    .col-3 {
                         margin-right: 0;
                     }
                 }
@@ -232,6 +245,7 @@
 
 @media (min-width: 768px) {
     #news {
+        margin-top: -25%;
         .container {
             .get-in-touch {
                 .intro-bold,
@@ -248,8 +262,8 @@
                 }
                 .row {
                     display: flex;
-                    .group-card {
-                        margin-right: 30px;
+                    .col-3 {
+                        margin-right: 35px;
                     }
                 }
             }
@@ -274,8 +288,8 @@
                 }
                 .row {
                     display: flex;
-                    .group-card {
-                        margin-right: 30px;
+                    .col-3 {
+                        margin-right: 100px;
                     }
                 }
             }
