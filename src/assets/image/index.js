@@ -13,4 +13,11 @@ import girl from './girl.png';
 
 import bgfooter from './bg-footer.png';
 
-export { build1, build2, build3, build4, card1, card2, card3, line, services, girl, bgfooter };
+import donors from './Donors.png';
+
+import circle from './circle.png';
+import pattern from './pattern.png';
+
+import videoStudio from './videoStudio.png';
+
+export { videoStudio, circle, pattern, donors, build1, build2, build3, build4, card1, card2, card3, line, services, girl, bgfooter };
