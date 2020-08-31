@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.scss';
 import 'antd/dist/antd.css';
-import { bgfooter } from '../../assets/image';
 import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
