@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 import './header.scss';
 import { logo } from '../../assets/icon';
-import { girl, lineHeader } from '../../assets/image';
+import { girl, lineHeader, patternHeader } from '../../assets/image';
 
 const link = (to, label) => (
     <NavLink
@@ -153,13 +153,13 @@ class Header extends React.Component {
                     <div className="wrapDriving">
                         <div className="text">
                             <div className="wrapLabel">
-                                <h2>Driving meaningful change through technology & design</h2>
+                                <h2>Driving meaningful change through technology & design </h2>
                                 <img src={lineHeader} className="line" />
                                 <img
                                     src={lineHeader}
                                     className="line hiddenOnMobile"
                                     style={{
-                                        right: 50,
+                                        right: '20%',
                                     }}
                                 />
                             </div>
@@ -179,7 +179,7 @@ class Header extends React.Component {
                                     className="wrapLatestProject"
                                 >
                                     <button>Latest Project</button>
-                                    <div style={{ height: '30px' }} />
+                                    <div style={{ height: '100px' }} />
                                     <ion-icon name="arrow-down-outline"></ion-icon>
                                 </div>
 
@@ -189,6 +189,7 @@ class Header extends React.Component {
                             </div>
                         </div>
                         <img src={girl} className="girl" alt="image" />
+                        <img src={patternHeader} className="patternHeader" />
                     </div>
                 </div>
             </div>
