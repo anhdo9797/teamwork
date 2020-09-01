@@ -2,13 +2,13 @@ import React from 'react';
 
 import './style.scss';
 
-import BuildBrands from '../../Components/BuildBrands';
-import News from '../../Components/News';
-import Footer from '../../Components/Footer';
-import Header from '../../Components/Header';
-import Digital from '../../Components/Digital';
+import BuildBrands from '../../components/BuildBrands';
+import News from '../../components/News';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
+import Digital from '../../components/Digital';
 import { donors } from '../../assets/image';
-import CreateStudio from '../../Components/CreateStudio';
+import CreateStudio from '../../components/CreateStudio';
 
 class Home extends React.Component {
     render() {
