@@ -1,5 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/d9e24a306397c4e3cad3a8707c535715?family=AinslieW01-CondRegular);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+$backgroundButton: #ff268b;
+
 .searchIcon {
     color: #ffff;
 }
@@ -146,18 +148,24 @@ button {
     font-size: 15px;
     color: #ffff;
     transition: 0.5s;
-    background-color: #ff268b;
+    background-color: $backgroundButton;
     font-family: 'Titillium Web', sans-serif;
 }
+
 .contactUs:hover {
     background-color: transparent;
-    color: #ff268b;
-    border: 1px solid #ff268b;
+    color: $backgroundButton;
+    border: 1px solid $backgroundButton;
     font-weight: bold;
     letter-spacing: 1px;
-    box-shadow: -7px 10px 42px -13px #ff268b;
-    text-shadow: 1px 1px 19px #ff268b;
+    box-shadow: -7px 10px 42px -13px $backgroundButton;
     border-radius: 5px;
+}
+
+.ant-badge-count-sm {
+    min-width: 10px;
+    height: 10px;
+    font-size: 8px;
 }
 
 .ant-drawer-body {
