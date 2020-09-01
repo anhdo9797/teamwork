@@ -1,12 +1,16 @@
 .container {
-  max-width: 1140px;
-  min-height: 100%;
-  margin: 0 auto;
-  width: 100%;
-  padding: 0 15px;
+    max-width: 1230px;
+    min-height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+button {
+    cursor: pointer;
 }
 
 body {
-  font-family: "Montserrat Alternates", sans-serif;
-  box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+    box-sizing: border-box;
 }

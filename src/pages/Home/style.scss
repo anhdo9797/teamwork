@@ -1,37 +1,37 @@
 .donors {
-  width: 100%;
-  max-width: 886px;
-  margin: 80px auto;
-  height: auto;
+    width: 100%;
+    max-width: 806px;
+    margin: 0 auto 80px auto;
+    height: auto;
 }
 
 .home {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .text {
-  p {
-    font-size: 17px;
-    color: #95a1ac;
-  }
-  h2 {
-    color: #8e8e8e;
-    font-size: 43px;
-    font-weight: 100;
-    margin-top: -15px;
-    font-family: 'Montserrat Alternates';
-  }
-  h1 {
-    font-size: 43px;
-    color: #3a364e;
-    margin: 0;
-    font-weight: bold;
-    font-family: 'Montserrat Alternates';
-  }
-  h3 {
-    color: #ff268b;
-    font-size: 15px;
-    font-family: 'Montserrat Alternates';
-  }
+    p {
+        font-size: 16px;
+        color: #95a1ac;
+    }
+    h2 {
+        color: #8e8e8e;
+        font-size: 40px;
+        font-weight: 100;
+        margin-top: -15px;
+        font-family: 'Montserrat Alternates';
+    }
+    h1 {
+        font-size: 43px;
+        color: #3a364e;
+        margin: 0;
+        font-weight: bold;
+        font-family: 'Montserrat Alternates';
+    }
+    h3 {
+        color: #ff268b;
+        font-size: 15px;
+        font-family: 'Montserrat Alternates';
+    }
 }
