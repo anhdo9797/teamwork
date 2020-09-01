@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.scss';
 import { build2, build1, build3, build4, line } from '../../assets/image';
+// import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 class BuildBrands extends React.Component {
     render() {

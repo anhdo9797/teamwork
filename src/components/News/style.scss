@@ -2,6 +2,8 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     box-sizing: border-box;
 }
+$font-title: 'Montserrat', sans-serif;
+$font-content: 'Montserrat Alternates', sans-serif;
 #news {
     overflow: hidden;
     position: relative;
@@ -59,6 +61,7 @@ body {
                 transition: 0.2s ease;
                 cursor: pointer;
                 position: relative;
+                $font-title: 'Montserrat', sans-serif;
             }
             .btn-get-started:hover {
                 opacity: 0.8;
@@ -87,12 +90,13 @@ body {
                 width: 60%;
                 text-align: justify;
                 margin: 60px 0;
+                font-family: $font-title;
             }
             .row {
                 .col-3 {
                     margin-right: 125px;
                     .group-card {
-                        transform: 0.2s ease;
+                        transition: 0.2s ease;
                         display: flex;
                         width: 100%;
                         .card:last-child {
@@ -101,13 +105,12 @@ body {
                         .card {
                             min-width: 0;
                             border-radius: 0.25rem;
-                            box-shadow: 0 3px 31px #888888;
+                            box-shadow: 0 3px 31px #707070;
                             background-color: #fff;
                             margin-top: 30px;
                             margin-bottom: 30px;
                             width: 100%;
                             position: relative;
-                            transition: 0.5s;
                             .mask-cover {
                                 z-index: 0;
                                 position: absolute !important;
@@ -136,7 +139,7 @@ body {
                                     color: #256ece;
                                     padding: 0;
                                     cursor: pointer;
-                                    transform: 0.2s ease;
+                                    transition: 0.2s ease;
                                     margin-top: 10px;
                                 }
                                 .date-ceo {
@@ -163,6 +166,7 @@ body {
                                 .txt-ceo {
                                     font-size: 17px;
                                     font-weight: 600;
+                                    font-family: $font-title;
                                 }
                             }
                             img {
@@ -188,12 +192,13 @@ body {
             height: 46px;
             color: #019dd8;
             cursor: pointer;
-            transform: 0.2s ease;
+            transition: 0.2s ease;
             padding: 0 46px;
             border-radius: 9px;
             font-size: 12px;
             margin: 88px 0;
             font-weight: bold;
+            font-family: $font-title;
         }
         .btn-view-all:hover {
             background: #019dd8;
@@ -269,14 +274,13 @@ body {
                 }
             }
             .our-insight {
+                .row {
+                    display: block;
+                    width: 60%;
+                    margin: 30px auto;
+                }
                 .txt-news {
                     width: 100%;
-                }
-                .row {
-                    display: flex;
-                    .col-3 {
-                        margin-right: 35px;
-                    }
                 }
             }
         }
@@ -299,9 +303,10 @@ body {
                     width: 40%;
                 }
                 .row {
+                    width: 100%;
                     display: flex;
                     .col-3 {
-                        margin-right: 100px;
+                        margin-right: 50px;
                     }
                 }
             }
@@ -309,4 +314,28 @@ body {
     }
 }
 @media (min-width: 1200px) {
+    #news {
+        .container {
+            .get-in-touch {
+                .intro-bold,
+                .intro-light {
+                    font-size: 42px;
+                }
+                .txt-quote {
+                    font-size: 10px;
+                }
+            }
+            .our-insight {
+                .txt-news {
+                    width: 40%;
+                }
+                .row {
+                    display: flex;
+                    .col-3 {
+                        margin-right: 60px;
+                    }
+                }
+            }
+        }
+    }
 }
