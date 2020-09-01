@@ -20,13 +20,13 @@ class Footer extends React.Component {
                                     <div>
                                         <ion-icon style={{ color: '#FF268B', marginRight: '15px' }} name="call-outline"></ion-icon>
                                     </div>
-                                    <div>8080000000</div>
+                                    <div style={{ fontWeight: 'bold', color: '#3A364E' }}>8080000000</div>
                                 </div>
                                 <div style={{ display: 'flex' }}>
                                     <div>
                                         <ion-icon style={{ color: '#FF268B', marginRight: '15px' }} name="mail-outline"></ion-icon>
                                     </div>
-                                    <div>8080000000</div>
+                                    <div style={{ fontWeight: 'bold', color: '#3A364E' }}>8080000000</div>
                                 </div>
                                 <div>
                                     <span className="icon-media">

@@ -10,7 +10,7 @@ class BuildBrands extends React.Component {
                     <div className="container">
                         <div className="group-title">
                             <div></div>
-                            <div>
+                            <div style={{ marginBottom: '40px', marginLeft: '1rem' }}>
                                 <div className="title">WITH KNOWLEDGE HEART & PASSION</div>
                                 <div className="intro-bold">We build brands</div>
                                 <div className="intro-light">for a digital world</div>
@@ -18,7 +18,7 @@ class BuildBrands extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-6">
-                                <div className="group-card"  style={{ marginTop: '-25px' }}>
+                                <div className="group-card" style={{ marginTop: '-100px' }}>
                                     <div className="card">
                                         <img className="card-img-top" src={build1} alt="Card image cap" />
                                         <div className="card-body">
@@ -52,7 +52,7 @@ class BuildBrands extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-6">
-                                <div className="group-card"  style={{ marginTop: '-25px' }}>
+                                <div className="group-card" style={{ marginTop: '-100px' }}>
                                     <div className="card">
                                         <img className="card-img-top" src={build4} alt="Card image cap" />
                                         <div className="card-body">

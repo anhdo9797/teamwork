@@ -1,11 +1,15 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+}
 #footer {
     overflow: hidden;
     color: #7d7d7d;
     font-size: 15px;
-    background: #f6f5f6;
+    background-color: #f6f5f6;
     padding: 100px 0;
     background: url('../../assets/image/bg-footer.png');
-    
+
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -25,11 +29,14 @@
                 }
                 div {
                     font-size: 15px;
-                    color: #3a364e;
+                    color: #7d7d7d;
                     min-height: 2rem;
                     a {
-                        color: #3a364e;
+                        color: #7d7d7d;
                     }
+                }
+                div:hover {
+                    font-size: 16px;
                 }
             }
         }
