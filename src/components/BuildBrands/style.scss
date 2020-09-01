@@ -1,7 +1,9 @@
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+$font-title: 'Montserrat', sans-serif;
+$font-content: 'Montserrat Alternates', sans-serif;
 #build-brands {
     background-color: #f6f5f6;
     overflow: hidden;
@@ -20,11 +22,13 @@ body {
         .title {
             font-size: 15px;
             color: #01acd8;
+            font-family: $font-title;
         }
         .intro-bold {
             font-size: 49px;
             font-weight: bold;
             color: #3a364e;
+            font-family: $font-title;
         }
         .intro-light {
             font-size: 49px;
@@ -72,6 +76,9 @@ body {
                         .line {
                             width: 62px;
                             margin-right: 20px;
+                        }
+                        .card-txt {
+                            font-family: $font-title;
                         }
                         .card-txt > div:first-child {
                             font-size: 14px;

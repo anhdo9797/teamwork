@@ -28,7 +28,7 @@ class News extends React.Component {
                         </div>
                         <div className="our-insight">
                             <div className="last-news">
-                                <div style={{ color: '#019DD8' }}>LATEST NEWS</div>
+                                <div style={{ color: '#019DD8', fontFamily: 'Montserrat' }}>LATEST NEWS</div>
                                 <div>
                                     <strong style={{ color: '#3A364E' }}>Ours insights</strong> & creative ideas
                                 </div>
