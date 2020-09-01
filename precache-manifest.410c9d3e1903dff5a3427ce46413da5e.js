@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "134b7a3bfbada1f394e7d837ba097677",
+    "revision": "44f62bd0547d771594ae409fdaca53ee",
     "url": "/teamwork/index.html"
   },
   {
-    "revision": "2918a906653a425ad68e",
+    "revision": "4fd4510140c58206e6dd",
     "url": "/teamwork/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "46081c25400e06b28998",
-    "url": "/teamwork/static/css/main.d651c5a7.chunk.css"
+    "revision": "f4b2aa8eda5c1e254d7e",
+    "url": "/teamwork/static/css/main.8fa3d076.chunk.css"
   },
   {
-    "revision": "2918a906653a425ad68e",
-    "url": "/teamwork/static/js/2.f8c39b6b.chunk.js"
+    "revision": "4fd4510140c58206e6dd",
+    "url": "/teamwork/static/js/2.4e2dad87.chunk.js"
   },
   {
-    "revision": "e4f6fd5e687738d725e56603861f1923",
-    "url": "/teamwork/static/js/2.f8c39b6b.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/teamwork/static/js/2.4e2dad87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46081c25400e06b28998",
-    "url": "/teamwork/static/js/main.bc3832d4.chunk.js"
+    "revision": "f4b2aa8eda5c1e254d7e",
+    "url": "/teamwork/static/js/main.dfdd4f8c.chunk.js"
   },
   {
     "revision": "bbb4c44f2640202f02b6",
@@ -52,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teamwork/static/media/Line2.2c08df69.svg"
   },
   {
-    "revision": "673c3e0accbe571874724c0a1e928e0c",
-    "url": "/teamwork/static/media/bg-header.673c3e0a.png"
-  },
-  {
     "revision": "9b7835e8bb953525b836ef77d87602fb",
     "url": "/teamwork/static/media/card1.9b7835e8.jpg"
   },
@@ -78,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "adbf4de58c98470280711efcf100c196",
     "url": "/teamwork/static/media/pattern.adbf4de5.png"
+  },
+  {
+    "revision": "8895bbb4568fece1becdc1ffcbc877e9",
+    "url": "/teamwork/static/media/patternHeader.8895bbb4.png"
   },
   {
     "revision": "e18244f5f1e92cabdb3e9594d4d12641",
