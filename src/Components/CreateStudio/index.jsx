@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tooltip } from 'antd';
 
-import { circle, videoStudio, pattern } from '../../assets/image';
+import { videoStudio, pattern } from '../../assets/image';
 import './style.scss';
 
 class CreateStudio extends React.PureComponent {
@@ -17,32 +17,26 @@ class CreateStudio extends React.PureComponent {
                             <h1>Creative Studio </h1>
                             <h2>& Technology</h2>
                             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                                <div style={{ width: '40%' }}>
-                                    <h1>
+                                <div style={{ width: '45%' }}>
+                                    <h1 style={{ fontWeight: 100 }}>
                                         20<span style={{ color: '#2D3BFF' }}>+</span>
                                     </h1>
-                                    <p style={{ fontWeight: 'bold', color: 'black' }}>
-                                        Launched startups
-                                    </p>
+                                    <p style={{ fontWeight: 'bold', color: 'black' }}>Launched startups</p>
                                     <p>We specialize in designing and develping</p>
                                 </div>
-                                <div style={{ width: '40%' }}>
-                                    <h1>
-                                        1.1<span style={{ color: '#2D3BFF' }}>+</span>
+
+                                <div style={{ width: '45%' }}>
+                                    <h1 style={{ fontWeight: 100 }}>
+                                        1.1<span style={{ color: '#2D3BFF' }}>k</span>
                                     </h1>
-                                    <p style={{ fontWeight: 'bold', color: 'black' }}>
-                                        Completed Projects
-                                    </p>
+                                    <p style={{ fontWeight: 'bold', color: 'black' }}>Completed Projects</p>
+
                                     <p>We specialize in designing and develping</p>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <Tooltip
-                                title="Play Video"
-                                trigger="click"
-                                style={{ margin: '0 auto' }}
-                            >
+                            <Tooltip title="Play Video" trigger="click" style={{ margin: '0 auto' }}>
                                 <img src={videoStudio} alt="video" className="video" />
                             </Tooltip>
                         </div>
@@ -53,15 +47,8 @@ class CreateStudio extends React.PureComponent {
                             <h3>WE ARE A CREATIVE STUDIO FOUNDED IN NYC</h3>
                             <h1>We specialize in</h1>
                             <h2>building brands</h2>
-                            <p>
-                                We treat branding, design & marketing as fundamentally liked &
-                                create brand experiences that feel familiar yet new. They have to
-                                resonate.
-                            </p>
-                            <button
-                                className="contactUs"
-                                style={{ margin: '30px 0', fontFamily: 'Montserrat' }}
-                            >
+                            <p>We treat branding, design & marketing as fundamentally liked & create brand experiences that feel familiar yet new. They have to resonate.</p>
+                            <button className="contactUs" style={{ margin: '30px 0', fontFamily: 'Montserrat' }}>
                                 Our Work
                             </button>
                         </div>

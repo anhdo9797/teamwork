@@ -11,6 +11,8 @@ import line from './Line2.svg';
 import services from './service.jpg';
 import girl from './girl.png';
 
+import bgfooter from './bg-footer.png';
+
 import donors from './Donors.png';
 
 import circle from './circle.png';
@@ -18,6 +20,7 @@ import pattern from './pattern.png';
 
 import videoStudio from './videoStudio.png';
 import lineHeader from './lineHeader.png';
+
 
 import patternHeader from './patternHeader.png';
 
@@ -39,3 +42,4 @@ export {
     services,
     girl,
 };
+

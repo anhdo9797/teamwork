@@ -39,14 +39,10 @@ class Digital extends React.PureComponent {
                         <h1>Digital creators </h1>
                         <h2>& Strategists</h2>
                         <p>
-                            We value our craft, have a deep passion for progression, and exist to
-                            solve challenges for brands we believe in. Since the beginning, our
-                            mission has been to do great work and to have a great time doing it
+                            We value our craft, have a deep passion for progression, and exist to solve challenges for brands we believe in. Since the beginning, our mission has
+                            been to do great work and to have a great time doing it
                         </p>
-                        <p>
-                            We believe our mission has guided us well. We build valuable brand and
-                            digital experiences that people love
-                        </p>
+                        <p>We believe our mission has guided us well. We build valuable brand and digital experiences that people love</p>
                     </div>
                 </div>
             </div>
