@@ -21,25 +21,6 @@ import pattern from './pattern.png';
 import videoStudio from './videoStudio.png';
 import lineHeader from './lineHeader.png';
 
-
 import patternHeader from './patternHeader.png';
 
-export {
-    patternHeader,
-    lineHeader,
-    videoStudio,
-    circle,
-    pattern,
-    donors,
-    build1,
-    build2,
-    build3,
-    build4,
-    card1,
-    card2,
-    card3,
-    line,
-    services,
-    girl,
-};
-
+export { patternHeader, lineHeader, videoStudio, circle, pattern, donors, build1, build2, build3, build4, card1, card2, card3, line, services, girl };
