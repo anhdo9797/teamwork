@@ -48,9 +48,12 @@ class CreateStudio extends React.PureComponent {
                             <h1>We specialize in</h1>
                             <h2>building brands</h2>
                             <p>We treat branding, design & marketing as fundamentally liked & create brand experiences that feel familiar yet new. They have to resonate.</p>
-                            <button className="contactUs" style={{ margin: '30px 0', fontFamily: 'Montserrat' }}>
-                                Our Work
-                            </button>
+                            <Tooltip title="Play Video" trigger="click">
+                                <button className="contactUs" style={{ margin: '30px 0', fontFamily: 'Montserrat' }}>
+                                    {/* contactUs in Header style */}
+                                    Our Work
+                                </button>
+                            </Tooltip>
                         </div>
                         <img src={pattern} className="pattern" />
                         <div
