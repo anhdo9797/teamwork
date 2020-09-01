@@ -1,13 +1,14 @@
 .donors {
     width: 100%;
     max-width: 806px;
-    margin: 0 auto 80px auto;
+    margin: 0 auto 100px auto;
     height: auto;
 }
 
 .home {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .text {

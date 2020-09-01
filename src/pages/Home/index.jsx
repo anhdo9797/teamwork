@@ -16,7 +16,7 @@ class Home extends React.Component {
             <div className="home">
                 <Header />
                 <Digital />
-                <div className="container">
+                <div className="container" style={{ display: 'flex' }}>
                     <img className="donors" src={donors} />
                 </div>
                 <CreateStudio />
