@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import { card1, card2, card3 } from '../../assets/image';
-import { DatePicker } from 'antd';
+import { CalendarOutlined } from '@ant-design/icons';
 import { UserOutlined } from '@ant-design/icons';
 import { Tooltip, Button } from 'antd';
 
@@ -28,9 +28,9 @@ class News extends React.Component {
                         </div>
                         <div className="our-insight">
                             <div className="last-news">
-                                <div>LATEST NEWS</div>
+                                <div style={{ color: '#019DD8' }}>LATEST NEWS</div>
                                 <div>
-                                    <strong>Ours insights</strong> & creative ideas
+                                    <strong style={{ color: '#3A364E' }}>Ours insights</strong> & creative ideas
                                 </div>
                             </div>
                             <div className="txt-news">
@@ -46,7 +46,10 @@ class News extends React.Component {
                                             <div className="txt-card card-body">
                                                 <div className="date-ceo">
                                                     <div className="date">
-                                                        <div>{<DatePicker />}</div>
+                                                        <div>
+                                                            <CalendarOutlined />
+                                                        </div>
+                                                        <div>10 FEB 2018</div>
                                                     </div>
                                                     <div className="ceo">
                                                         <div>
@@ -55,7 +58,9 @@ class News extends React.Component {
                                                         <div>CEO</div>
                                                     </div>
                                                 </div>
-                                                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
+                                                <div className="txt-ceo">
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts
+                                                </div>
                                                 <button className="read-more">Read More</button>
                                             </div>
                                         </div>
@@ -69,7 +74,10 @@ class News extends React.Component {
                                             <div className="txt-card card-body">
                                                 <div className="date-ceo">
                                                     <div className="date">
-                                                        <div>{<DatePicker />}</div>
+                                                        <div>
+                                                            <CalendarOutlined />
+                                                        </div>
+                                                        <div>10 FEB 2018</div>
                                                     </div>
                                                     <div className="ceo">
                                                         <div>
@@ -78,7 +86,9 @@ class News extends React.Component {
                                                         <div>CEO</div>
                                                     </div>
                                                 </div>
-                                                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
+                                                <div className="txt-ceo">
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts
+                                                </div>
                                                 <button className="read-more">Read More</button>
                                             </div>
                                         </div>
@@ -92,7 +102,10 @@ class News extends React.Component {
                                             <div className="txt-card card-body">
                                                 <div className="date-ceo">
                                                     <div className="date">
-                                                        <div>{<DatePicker />}</div>
+                                                        <div>
+                                                            <CalendarOutlined />
+                                                        </div>
+                                                        <div>10 FEB 2018</div>
                                                     </div>
                                                     <div className="ceo">
                                                         <div>
@@ -101,7 +114,9 @@ class News extends React.Component {
                                                         <div>CEO</div>
                                                     </div>
                                                 </div>
-                                                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts</div>
+                                                <div className="txt-ceo">
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Collection with gift on which until accounts
+                                                </div>
                                                 <button className="read-more">Read More</button>
                                             </div>
                                         </div>
@@ -122,4 +137,4 @@ class News extends React.Component {
     }
 }
 
-export default News; //cais file ni cos van đề thì mới có mấy cái dòng đỏ đỏ nè
+export default News;

@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+}
 #build-brands {
     background-color: #f6f5f6;
     overflow: hidden;
@@ -6,9 +10,9 @@
     .container {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        max-width: 1140px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
         .group-title {
             display: grid;
             grid-template-columns: 50% 50%;
@@ -76,9 +80,10 @@
                         .card-txt > div:last-child {
                             font-size: 27px;
                             color: #3a364e;
+                            font-weight: 600;
                         }
                     }
-                    .card:hover{
+                    .card:hover {
                         transform: scaleX(1.01);
                     }
                 }
