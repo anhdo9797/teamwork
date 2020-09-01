@@ -17,25 +17,52 @@ class Footer extends React.Component {
                                 </div>
                                 <div style={{ display: 'flex' }}>
                                     <div>
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '10px' }} name="call-outline"></ion-icon>
+                                        <ion-icon
+                                            style={{ color: '#FF268B', marginRight: '10px' }}
+                                            name="call-outline"
+                                        ></ion-icon>
                                     </div>
                                     <div>8080000000</div>
                                 </div>
                                 <div style={{ display: 'flex' }}>
                                     <div>
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '10px' }} name="mail-outline"></ion-icon>
+                                        <ion-icon
+                                            style={{ color: '#FF268B', marginRight: '10px' }}
+                                            name="mail-outline"
+                                        ></ion-icon>
                                     </div>
                                     <div>8080000000</div>
                                 </div>
                                 <div>
                                     <span className="icon-media">
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '10px', fontSize: '20px' }} name="logo-facebook"></ion-icon>
+                                        <ion-icon
+                                            style={{
+                                                color: '#FF268B',
+                                                marginRight: '10px',
+                                                fontSize: '20px',
+                                            }}
+                                            name="logo-facebook"
+                                        ></ion-icon>
                                     </span>
                                     <span className="icon-media">
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '10px', fontSize: '20px' }} name="logo-instagram"></ion-icon>
+                                        <ion-icon
+                                            style={{
+                                                color: '#FF268B',
+                                                marginRight: '10px',
+                                                fontSize: '20px',
+                                            }}
+                                            name="logo-instagram"
+                                        ></ion-icon>
                                     </span>
                                     <span className="icon-media">
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '10px', fontSize: '20px' }} name="logo-twitter"></ion-icon>
+                                        <ion-icon
+                                            style={{
+                                                color: '#FF268B',
+                                                marginRight: '10px',
+                                                fontSize: '20px',
+                                            }}
+                                            name="logo-twitter"
+                                        ></ion-icon>
                                     </span>
                                 </div>
                             </div>
