@@ -1,9 +1,15 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+}
 #footer {
     overflow: hidden;
     color: #7d7d7d;
     font-size: 15px;
-    background: #f6f5f6;
-    padding: 120px 0;
+    background-color: #f6f5f6;
+    padding: 100px 0;
+    background: url('../../assets/image/bg-footer.png');
+
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -23,22 +29,32 @@
                 }
                 div {
                     font-size: 15px;
-                    color: #3a364e;
+                    color: #7d7d7d;
                     min-height: 2rem;
+                    a {
+                        color: #7d7d7d;
+                    }
                 }
-                svg.ionicon.s-ion-icon {
-                    font-size: 20px;
+                div:hover {
+                    font-size: 16px;
                 }
             }
         }
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     #footer {
         .container {
             .row {
                 text-align: center;
                 display: block;
+                .col-4 {
+                    width: 30%;
+                    div {
+                        justify-content: center;
+                        min-height: 2rem;
+                    }
+                }
             }
         }
     }
@@ -47,8 +63,14 @@
     #footer {
         .container {
             .row {
+                text-align: left;
+                display: flex;
                 .col-4 {
-                    width: 15%;
+                    width: 20%;
+                    div {
+                        justify-content: left;
+                        min-height: 2rem;
+                    }
                 }
             }
         }
@@ -58,30 +80,27 @@
     #footer {
         .container {
             .row {
-                .col-4 {
-                    width: 20%;
-                }
-            }
-        }
-    }
-}
-@media (min-width: 1200px) {
-    #footer {
-        .container {
-            .row {
+                text-align: left;
+                display: flex;
                 .col-4 {
                     width: 25%;
+                    div {
+                        justify-content: left;
+                        min-height: 2rem;
+                    }
                 }
             }
         }
     }
 }
-
-// // Medium devices (tablets, 768px and up)
-// @media (min-width: 768px) { ... }
-
-// // Large devices (desktops, 992px and up)
-// @media (min-width: 992px) { ... }
-
-// // Extra large devices (large desktops, 1200px and up)
-// @media (min-width: 1200px) { ... }
+// @media (min-width: 1200px) {
+//     #footer {
+//         .container {
+//             .row {
+//                 .col-4 {
+//                     width: 25%;
+//                 }
+//             }
+//         }
+//     }
+// }
