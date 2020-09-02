@@ -4,7 +4,7 @@ import { Badge, Tooltip, Drawer, Input } from 'antd';
 import { NavLink } from 'react-router-dom';
 
 import './header.scss';
-import { logo } from '../../assets/icon';
+import { logo, facebook, web, instagram, twitter, notification, search } from '../../assets/icon';
 import { girl, lineHeader, patternHeader } from '../../assets/image';
 
 const link = (to, label) => (
@@ -35,7 +35,7 @@ const IconNotification = ({}) => {
         <button className="iconButton">
             <Tooltip placement="bottomLeft" title="Notifications" trigger="click">
                 <Badge count={4} size={'small'} title="4 notifications">
-                    <ion-icon name="notifications"></ion-icon>
+                    <img src={notification} className="icon navIcon" />
                 </Badge>
             </Tooltip>
         </button>
@@ -52,7 +52,7 @@ const IconSearch = ({ onClick }) => {
                 className="iconButton"
                 onClick={onClick}
             >
-                <ion-icon name="search" />
+                <img src={search} className="icon navIcon" />
             </button>
         </Tooltip>
     );
@@ -81,17 +81,17 @@ class Header extends React.Component {
 
                         <div className="right">
                             <a href="/contact">
-                                <ion-icon name="logo-instagram"></ion-icon>
+                                <img src={instagram} className="icon" style={{ marginBottom: '10px' }} />
                             </a>
                             <a href="/contact">
-                                <ion-icon name="logo-twitter"></ion-icon>
+                                <img src={twitter} className="icon" style={{ marginBottom: '10px' }} />
                             </a>
 
                             <a href="/contact">
-                                <ion-icon name="logo-facebook"></ion-icon>
+                                <img src={facebook} className="icon" style={{ marginBottom: '10px' }} />
                             </a>
                             <a href="/contact">
-                                <ion-icon name="earth-outline"></ion-icon>
+                                <img src={web} className="icon" style={{ marginBottom: '10px' }} />
                             </a>
                         </div>
                     </div>
@@ -120,13 +120,7 @@ class Header extends React.Component {
                                 <ion-icon name="menu-outline"></ion-icon>
                             </button>
 
-                            <Drawer
-                                title="Menu"
-                                placement="right"
-                                closable={false}
-                                onClose={this.closeMenu}
-                                visible={this.state.visible}
-                            >
+                            <Drawer title="Menu" placement="right" closable={false} onClose={this.closeMenu} visible={this.state.visible}>
                                 {linkMobile('/home', 'Home')}
                                 {linkMobile('/about', 'About')}
                                 {linkMobile('/services', 'Services')}
@@ -138,9 +132,7 @@ class Header extends React.Component {
 
                                     {this.state.showSearch ? <Input placeholder="search" /> : null}
 
-                                    <IconSearch
-                                        onClick={() => this.setState({ showSearch: !showSearch })}
-                                    />
+                                    <IconSearch onClick={() => this.setState({ showSearch: !showSearch })} />
                                 </div>
 
                                 <Tooltip placement="bottomLeft" title="Contact us" trigger="click">
@@ -165,9 +157,8 @@ class Header extends React.Component {
                             </div>
 
                             <h3>
-                                Crafting delightful experiences through meticulous attention to
-                                detail. We help our clients reach their full potential through
-                                serving as the management team.
+                                Crafting delightful experiences through meticulous attention to detail. We help our clients reach their full potential through serving as the
+                                management team.
                             </h3>
                             <div className="wrapButton">
                                 <div
