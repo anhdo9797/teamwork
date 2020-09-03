@@ -22,6 +22,16 @@ button {
     background-color: #f7f4fb;
     flex-wrap: wrap;
 
+    .icon {
+        width: 16px;
+        height: 16px;
+        transition: 0.3s ease-in;
+    }
+
+    .navIcon:hover {
+        transform: scale(1.1);
+    }
+
     .wrapContact {
         height: 40px;
         display: flex;
@@ -39,6 +49,9 @@ button {
         }
         a:hover {
             border-bottom: 1px solid black;
+        }
+        ion-icon {
+            margin: 0;
         }
     }
 
@@ -71,6 +84,7 @@ button {
                 transition: 0.4s;
                 icon-icon {
                     transition: 0.5s;
+                    font-size: 40px;
                 }
             }
             .iconButton:hover {
@@ -111,6 +125,7 @@ button {
                 font-size: 18px;
                 color: #9a9a9a;
                 margin-bottom: 35px;
+                font-family: 'Montserrat';
             }
 
             button {
@@ -163,8 +178,8 @@ button {
 }
 
 .ant-badge-count-sm {
-    min-width: 10px;
-    height: 10px;
+    min-width: 12px;
+    height: 12px;
     font-size: 8px;
 }
 
