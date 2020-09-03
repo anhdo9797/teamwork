@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Badge, Tooltip, Drawer, Input } from 'antd';
 import { NavLink } from 'react-router-dom';
-
 import './header.scss';
 import { logo } from '../../assets/icon';
 import { girl, lineHeader, patternHeader } from '../../assets/image';
@@ -59,14 +58,15 @@ const IconSearch = ({ onClick }) => {
 };
 
 class Header extends React.Component {
-    state = {
-        visible: false,
-        showSearch: false,
-    };
-
-    showMenu = () => this.setState({ visible: true });
-    closeMenu = () => this.setState({ visible: false });
-
+    constructor(props) {
+        super(props);
+        this.state = {
+            visible: false,
+            showSearch: false,
+        };
+        this.showMenu = () => this.setState({ visible: true });
+        this.closeMenu = () => this.setState({ visible: false });
+    }
     render() {
         const { visible, showSearch } = this.state;
         return (
@@ -120,13 +120,7 @@ class Header extends React.Component {
                                 <ion-icon name="menu-outline"></ion-icon>
                             </button>
 
-                            <Drawer
-                                title="Menu"
-                                placement="right"
-                                closable={false}
-                                onClose={this.closeMenu}
-                                visible={this.state.visible}
-                            >
+                            <Drawer title="Menu" placement="right" closable={false} onClose={this.closeMenu} visible={this.state.visible}>
                                 {linkMobile('/home', 'Home')}
                                 {linkMobile('/about', 'About')}
                                 {linkMobile('/services', 'Services')}
@@ -138,9 +132,7 @@ class Header extends React.Component {
 
                                     {this.state.showSearch ? <Input placeholder="search" /> : null}
 
-                                    <IconSearch
-                                        onClick={() => this.setState({ showSearch: !showSearch })}
-                                    />
+                                    <IconSearch onClick={() => this.setState({ showSearch: !showSearch })} />
                                 </div>
 
                                 <Tooltip placement="bottomLeft" title="Contact us" trigger="click">
@@ -165,9 +157,8 @@ class Header extends React.Component {
                             </div>
 
                             <h3>
-                                Crafting delightful experiences through meticulous attention to
-                                detail. We help our clients reach their full potential through
-                                serving as the management team.
+                                Crafting delightful experiences through meticulous attention to detail. We help our clients reach their full potential through serving as the
+                                management team.
                             </h3>
                             <div className="wrapButton">
                                 <div
@@ -196,7 +187,5 @@ class Header extends React.Component {
         );
     }
 }
-
-Header.propTypes = {};
 
 export default Header;
