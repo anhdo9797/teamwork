@@ -23,17 +23,20 @@ $font-content: 'Montserrat Alternates', sans-serif;
             font-size: 15px;
             color: #01acd8;
             font-family: $font-title;
+            line-height: 64px;
         }
         .intro-bold {
             font-size: 49px;
             font-weight: bold;
             color: #3a364e;
             font-family: $font-title;
+            line-height: 58px;
         }
         .intro-light {
             font-size: 49px;
             font-weight: lighter;
             color: #686868;
+            line-height: 58px;
         }
         .row {
             display: flex;
@@ -61,6 +64,7 @@ $font-content: 'Montserrat Alternates', sans-serif;
                         margin-left: 1rem;
                         margin-top: 5rem;
                         margin-bottom: 1rem;
+                        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
                         cursor: pointer;
                         .card-img-top {
                             width: 100%;
@@ -80,18 +84,26 @@ $font-content: 'Montserrat Alternates', sans-serif;
                         .card-txt {
                             font-family: $font-title;
                         }
+                        .card-txt:hover {
+                            color: green;
+                        }
                         .card-txt > div:first-child {
                             font-size: 14px;
                             color: #95a1ac;
+                            line-height: 16px;
                         }
                         .card-txt > div:last-child {
                             font-size: 27px;
                             color: #3a364e;
                             font-weight: 600;
+                            line-height: 32px;
                         }
                     }
-                    .card:hover {
-                        transform: scaleX(1.01);
+                    .card {
+                        .card-img-top:hover {
+                            transform: scale(0.98);
+                            font-weight: li;
+                        }
                     }
                 }
             }

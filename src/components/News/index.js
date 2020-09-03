@@ -6,7 +6,6 @@ import { UserOutlined } from '@ant-design/icons';
 import { Tooltip, Button } from 'antd';
 
 class News extends React.Component {
-    //bij chi moo hef
     render() {
         return (
             <div>
