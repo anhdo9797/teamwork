@@ -2,14 +2,19 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     box-sizing: border-box;
 }
+$font-title: 'Montserrat', sans-serif;
+$font-content: 'Montserrat Alternates', sans-serif;
 #footer {
     overflow: hidden;
     color: #7d7d7d;
     font-size: 15px;
-    background-color: #f6f5f6;
-    padding: 100px 0;
-    background: url('../../assets/image/bg-footer.png');
 
+    padding: 100px 0;
+    background: url('../../assets/image/bg-footer.png'), url('../../assets/image/bg-footer2.png'), url('../../assets/image/bg-footer3.png');
+    font-family: $font-title;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f6f5f6;
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -25,18 +30,55 @@ body {
                     font-size: 20px;
                     font-weight: bold;
                     color: #3a364e;
-                    margin: 3rem 0;
+                    margin: 50px 0;
+                    line-height: 20px;
                 }
                 div {
                     font-size: 15px;
                     color: #7d7d7d;
                     min-height: 2rem;
+                    line-height: 30px;
                     a {
                         color: #7d7d7d;
+                        font-family: $font-title;
                     }
                 }
                 div:hover {
                     font-size: 16px;
+                }
+            }
+        }
+    }
+}
+#sub-footer {
+    font-size: 13px;
+    color: #95a1ac;
+    font-family: $font-title;
+    min-height: 56px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 1140px;
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .footer-right {
+                span {
+                    a {
+                        color: #95a1ac;
+                        font-size: 13px;
+                        padding: 0 6px;
+                    }
+                }
+                span:first-child {
+                    border-right: 1px solid #95a1ac;
                 }
             }
         }

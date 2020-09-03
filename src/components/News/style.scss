@@ -2,6 +2,8 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     box-sizing: border-box;
 }
+$font-title: 'Montserrat', sans-serif;
+$font-content: 'Montserrat Alternates', sans-serif;
 #news {
     overflow: hidden;
     position: relative;
@@ -33,19 +35,22 @@ body {
                 left: 0;
                 right: 0;
                 background-color: #019dd8;
-                opacity: 75%;
+                opacity: 0.75;
                 border-radius: 50px;
             }
             .txt-quote {
                 font-size: 15px;
+                line-height: 65px;
             }
             .intro-bold {
                 font-weight: bolder;
                 font-size: 54px;
+                line-height: 64px;
             }
             .intro-light {
                 font-size: 54px;
                 color: #dbdbdb;
+                line-height: 64px;
             }
             .btn-get-started {
                 border-radius: 8px;
@@ -59,6 +64,7 @@ body {
                 transition: 0.2s ease;
                 cursor: pointer;
                 position: relative;
+                $font-title: 'Montserrat', sans-serif;
             }
             .btn-get-started:hover {
                 opacity: 0.8;
@@ -76,10 +82,12 @@ body {
             .last-news > div:first-child {
                 font-size: 21px;
                 font-weight: bold;
+                line-height: 38px;
             }
             .last-news > div:last-child {
                 font-size: 45px;
                 color: #686868;
+                line-height: 54px;
             }
             .txt-news {
                 color: #95a1ac;
@@ -87,12 +95,14 @@ body {
                 width: 60%;
                 text-align: justify;
                 margin: 60px 0;
+                font-family: $font-title;
+                line-height: 30px;
             }
             .row {
                 .col-3 {
                     margin-right: 125px;
                     .group-card {
-                        transform: 0.2s ease;
+                        transition: 0.2s ease;
                         display: flex;
                         width: 100%;
                         .card:last-child {
@@ -101,13 +111,12 @@ body {
                         .card {
                             min-width: 0;
                             border-radius: 0.25rem;
-                            box-shadow: 0 3px 31px #888888;
+                            box-shadow: 0 3px 31px #707070;
                             background-color: #fff;
                             margin-top: 30px;
                             margin-bottom: 30px;
                             width: 100%;
                             position: relative;
-                            transition: 0.5s;
                             .mask-cover {
                                 z-index: 0;
                                 position: absolute !important;
@@ -116,7 +125,7 @@ body {
                                 left: 0;
                                 right: 0;
                                 background-color: #019dd8;
-                                opacity: 50%;
+                                opacity: 0.5;
                                 height: 260px;
                             }
                             .card-img-top {
@@ -136,14 +145,16 @@ body {
                                     color: #256ece;
                                     padding: 0;
                                     cursor: pointer;
-                                    transform: 0.2s ease;
+                                    transition: 0.2s ease;
                                     margin-top: 10px;
+                                    line-height: 20px;
                                 }
                                 .date-ceo {
                                     display: flex;
                                     justify-content: right;
                                     align-items: center;
                                     margin-bottom: 34px;
+                                    line-height: 20px;
                                     .date {
                                         display: flex;
                                     }
@@ -161,8 +172,10 @@ body {
                                     }
                                 }
                                 .txt-ceo {
-                                    font-size: 17px;
+                                    font-size: 15px;
                                     font-weight: 600;
+                                    font-family: $font-title;
+                                    line-height: 30px;
                                 }
                             }
                             img {
@@ -188,12 +201,14 @@ body {
             height: 46px;
             color: #019dd8;
             cursor: pointer;
-            transform: 0.2s ease;
+            transition: 0.2s ease;
             padding: 0 46px;
             border-radius: 9px;
             font-size: 12px;
             margin: 88px 0;
             font-weight: bold;
+            line-height: 16px;
+            font-family: $font-title;
         }
         .btn-view-all:hover {
             background: #019dd8;
@@ -269,14 +284,13 @@ body {
                 }
             }
             .our-insight {
+                .row {
+                    display: block;
+                    width: 60%;
+                    margin: 30px auto;
+                }
                 .txt-news {
                     width: 100%;
-                }
-                .row {
-                    display: flex;
-                    .col-3 {
-                        margin-right: 35px;
-                    }
                 }
             }
         }
@@ -299,9 +313,10 @@ body {
                     width: 40%;
                 }
                 .row {
+                    width: 100%;
                     display: flex;
                     .col-3 {
-                        margin-right: 100px;
+                        margin-right: 50px;
                     }
                 }
             }
@@ -309,4 +324,28 @@ body {
     }
 }
 @media (min-width: 1200px) {
+    #news {
+        .container {
+            .get-in-touch {
+                .intro-bold,
+                .intro-light {
+                    font-size: 42px;
+                }
+                .txt-quote {
+                    font-size: 10px;
+                }
+            }
+            .our-insight {
+                .txt-news {
+                    width: 40%;
+                }
+                .row {
+                    display: flex;
+                    .col-3 {
+                        margin-right: 60px;
+                    }
+                }
+            }
+        }
+    }
 }

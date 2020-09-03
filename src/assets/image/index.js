@@ -12,6 +12,8 @@ import services from './service.jpg';
 import girl from './girl.png';
 
 import bgfooter from './bg-footer.png';
+import bgfooter2 from './bg-footer2.png';
+import bgfooter3 from './bg-footer3.png';
 
 import donors from './Donors.png';
 
@@ -23,4 +25,24 @@ import lineHeader from './lineHeader.png';
 
 import patternHeader from './patternHeader.png';
 
-export { patternHeader, lineHeader, videoStudio, circle, pattern, donors, build1, build2, build3, build4, card1, card2, card3, line, services, girl };
+export {
+    patternHeader,
+    lineHeader,
+    videoStudio,
+    circle,
+    pattern,
+    donors,
+    build1,
+    build2,
+    build3,
+    build4,
+    card1,
+    card2,
+    card3,
+    line,
+    services,
+    girl,
+    bgfooter,
+    bgfooter2,
+    bgfooter3,
+};

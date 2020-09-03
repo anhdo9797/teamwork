@@ -22,8 +22,6 @@ class Digital extends React.PureComponent {
         return (
             <div className="digital">
                 <div className="container wrapDigital">
-                    <div className="lineCircle" />
-                    <div className="lineCircle" style={{ top: -100, right: -620 }} />
                     <div className="wrapCard">
                         <div className="colOnce">
                             <DigitalCard label={listCard[0].label} src={listCard[0].src} />
@@ -40,9 +38,9 @@ class Digital extends React.PureComponent {
                         <h2>& Strategists</h2>
                         <p>
                             We value our craft, have a deep passion for progression, and exist to solve challenges for brands we believe in. Since the beginning, our mission has
-                            been to do great work and to have a great time doing it
+                            been to do great work and to have a great time doing it We believe our mission has guided us well.{' '}
                         </p>
-                        <p>We believe our mission has guided us well. We build valuable brand and digital experiences that people love</p>
+                        <p>We build valuable brand and digital experiences that people love</p>
                     </div>
                 </div>
             </div>

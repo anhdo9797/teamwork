@@ -1,7 +1,9 @@
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+$font-title: 'Montserrat', sans-serif;
+$font-content: 'Montserrat Alternates', sans-serif;
 #build-brands {
     background-color: #f6f5f6;
     overflow: hidden;
@@ -10,8 +12,8 @@ body {
     .container {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
         width: 100%;
         .group-title {
             display: grid;
@@ -20,16 +22,21 @@ body {
         .title {
             font-size: 15px;
             color: #01acd8;
+            font-family: $font-title;
+            line-height: 64px;
         }
         .intro-bold {
             font-size: 49px;
             font-weight: bold;
             color: #3a364e;
+            font-family: $font-title;
+            line-height: 58px;
         }
         .intro-light {
             font-size: 49px;
             font-weight: lighter;
             color: #686868;
+            line-height: 58px;
         }
         .row {
             display: flex;
@@ -57,6 +64,7 @@ body {
                         margin-left: 1rem;
                         margin-top: 5rem;
                         margin-bottom: 1rem;
+                        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
                         cursor: pointer;
                         .card-img-top {
                             width: 100%;
@@ -73,18 +81,29 @@ body {
                             width: 62px;
                             margin-right: 20px;
                         }
+                        .card-txt {
+                            font-family: $font-title;
+                        }
+                        .card-txt:hover {
+                            color: green;
+                        }
                         .card-txt > div:first-child {
                             font-size: 14px;
                             color: #95a1ac;
+                            line-height: 16px;
                         }
                         .card-txt > div:last-child {
                             font-size: 27px;
                             color: #3a364e;
                             font-weight: 600;
+                            line-height: 32px;
                         }
                     }
-                    .card:hover {
-                        transform: scaleX(1.01);
+                    .card {
+                        .card-img-top:hover {
+                            transform: scale(0.98);
+                            font-weight: li;
+                        }
                     }
                 }
             }
@@ -97,22 +116,60 @@ body {
         .container {
             .group-title {
                 display: block;
+                .title {
+                    font-size: 12px;
+                }
+                .intro-bold,
+                .intro-light {
+                    font-size: 32px;
+                }
+            }
+            .row {
+                display: block;
+                .col-6 {
+                    .group-card {
+                        margin: 10px auto !important;
+                        .card {
+                            .card-body {
+                                .card-txt > div:last-child {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 576px) {
+    #build-brands {
+        .container {
+            .group-title {
+                display: block;
+                .title {
+                    font-size: 12px;
+                }
             }
             .intro-bold,
             .intro-bold {
-                font-size: 38p;
+                font-size: 38px;
             }
         }
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #build-brands {
         .container {
-            .intro-bold,
-            .intro-bold {
-                font-size: 38p;
+            .group-title {
+                display: grid;
+                .intro-bold,
+                .intro-bold {
+                    font-size: 38px;
+                }
             }
+
             .row .col-6 .group-card .card .card-body .card-txt {
                 font-size: 20px;
             }

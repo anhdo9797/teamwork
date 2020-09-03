@@ -2,6 +2,7 @@ import React from 'react';
 import './style.scss';
 import 'antd/dist/antd.css';
 import { Link } from 'react-router-dom';
+import { BorderRightOutlined } from '@ant-design/icons';
 
 class Footer extends React.Component {
     render() {
@@ -28,7 +29,7 @@ class Footer extends React.Component {
                                     </div>
                                     <div style={{ fontWeight: 'bold', color: '#3A364E' }}>8080000000</div>
                                 </div>
-                                <div>
+                                <div style={{ lineHeight: '20px' }}>
                                     <span className="icon-media">
                                         <ion-icon style={{ color: '#FF268B', marginRight: '20px', fontSize: '30px' }} name="logo-facebook"></ion-icon>
                                     </span>
@@ -85,6 +86,21 @@ class Footer extends React.Component {
                                 <div>Marketplace</div>
                                 <div>Experts</div>
                                 <div>Guides</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="sub-footer">
+                    <div className="container">
+                        <div className="row">
+                            <div className="footer-left">© 2019 Prelude by viworx-Co. All Rights Reserved</div>
+                            <div className="footer-right">
+                                <span>
+                                    <Link to="/about">Terms of use</Link>
+                                </span>
+                                <span>
+                                    <Link to="/about">Privacy policy</Link>
+                                </span>
                             </div>
                         </div>
                     </div>
