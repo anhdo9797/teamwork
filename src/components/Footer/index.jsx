@@ -82,10 +82,19 @@ class Footer extends React.Component {
                             </div>
                             <div className="col-4">
                                 <h5>Service</h5>
-                                <div>Training</div>
-                                <div>Marketplace</div>
-                                <div>Experts</div>
-                                <div>Guides</div>
+                                <div>
+                                    <Link to="/about">Training</Link>
+                                </div>
+
+                                <div>
+                                    <Link to="/about">Marketplace</Link>
+                                </div>
+                                <div>
+                                    <Link to="/about">Experts</Link>
+                                </div>
+                                <div>
+                                    <Link to="/about">Guides</Link>
+                                </div>
                             </div>
                         </div>
                     </div>

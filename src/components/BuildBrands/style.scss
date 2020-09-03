@@ -71,6 +71,7 @@ $font-content: 'Montserrat Alternates', sans-serif;
                             height: 400px;
                             display: block;
                             object-fit: cover;
+                            transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
                         }
                         .card-body {
                             flex: 1 1 auto;
@@ -101,8 +102,8 @@ $font-content: 'Montserrat Alternates', sans-serif;
                     }
                     .card {
                         .card-img-top:hover {
-                            transform: scale(0.98);
-                            font-weight: li;
+                            transform: scale(1.02);
+                            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
                         }
                     }
                 }
