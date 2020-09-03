@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c56163207c8d35fd6890954b01721b50",
+    "revision": "fe65a1139670eb57e13af12ad00c2929",
     "url": "/teamwork/index.html"
   },
   {
-    "revision": "df1edb0069d29984380f",
+    "revision": "a6b9a1c548d177f7c3e8",
     "url": "/teamwork/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "1d24bacd4e5ff46bae1b",
-    "url": "/teamwork/static/css/main.5b4902c2.chunk.css"
+    "revision": "baa4de6cc5a55b86ed72",
+    "url": "/teamwork/static/css/main.d4ea38dd.chunk.css"
   },
   {
-    "revision": "df1edb0069d29984380f",
-    "url": "/teamwork/static/js/2.2e09490b.chunk.js"
+    "revision": "a6b9a1c548d177f7c3e8",
+    "url": "/teamwork/static/js/2.e0b72ea0.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/teamwork/static/js/2.2e09490b.chunk.js.LICENSE.txt"
+    "url": "/teamwork/static/js/2.e0b72ea0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1d24bacd4e5ff46bae1b",
-    "url": "/teamwork/static/js/main.f2fada08.chunk.js"
+    "revision": "baa4de6cc5a55b86ed72",
+    "url": "/teamwork/static/js/main.012a678d.chunk.js"
   },
   {
     "revision": "bbb4c44f2640202f02b6",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c08df69e2e40e7de373c61775c188af",
     "url": "/teamwork/static/media/Line2.2c08df69.svg"
+  },
+  {
+    "revision": "a85ac9a56724b7cf7327609b931568c9",
+    "url": "/teamwork/static/media/bg-footer3.a85ac9a5.png"
   },
   {
     "revision": "9b7835e8bb953525b836ef77d87602fb",
