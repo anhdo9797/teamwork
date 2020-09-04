@@ -19,25 +19,31 @@ class Footer extends React.Component {
                                 </div>
                                 <div style={{ display: 'flex' }}>
                                     <div>
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '15px' }} name="call-outline"></ion-icon>
+                                        <ion-icon name="call-outline"></ion-icon>
                                     </div>
                                     <div style={{ fontWeight: 'bold', color: '#3A364E' }}>8080000000</div>
                                 </div>
                                 <div style={{ display: 'flex' }}>
                                     <div>
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '15px' }} name="mail-outline"></ion-icon>
+                                        <ion-icon name="mail-outline"></ion-icon>
                                     </div>
                                     <div style={{ fontWeight: 'bold', color: '#3A364E' }}>8080000000</div>
                                 </div>
                                 <div style={{ lineHeight: '20px' }}>
                                     <span className="icon-media">
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '20px', fontSize: '30px' }} name="logo-facebook"></ion-icon>
+                                        <Link to="/about">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </Link>
                                     </span>
                                     <span className="icon-media">
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '20px', fontSize: '30px' }} name="logo-instagram"></ion-icon>
+                                        <Link to="/about">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </Link>
                                     </span>
                                     <span className="icon-media">
-                                        <ion-icon style={{ color: '#FF268B', marginRight: '20px', fontSize: '30px' }} name="logo-twitter"></ion-icon>
+                                        <Link to="/about">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </Link>
                                     </span>
                                 </div>
                             </div>
